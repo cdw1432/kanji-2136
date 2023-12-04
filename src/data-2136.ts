@@ -1,3 +1,6 @@
+/*  
+https://en.wikipedia.org/wiki/List_of_j%C5%8Dy%C5%8D_kanji
+*/
 export const jsonData = [
     {
       "#": 1,
