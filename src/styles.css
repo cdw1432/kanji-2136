@@ -66,3 +66,8 @@ body {
     min-width: 100px;
     font-size: 25px;
 }
+#character {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
