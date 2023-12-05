@@ -34,8 +34,9 @@ optionArray.forEach((opt) => {
 
   buttonElement.addEventListener('click', () => {
     selectedMenu = (OPTIONS as any)[opt].toString();
-    updateData()
-    showData()
+
+    updateData();
+    flashcards();
   });
 
   optionElement.appendChild(buttonElement);
@@ -50,6 +51,8 @@ let updateData = () => {
     jsonDataUpdated = jsonData.filter((e) => e.Grade == grade)
   else
     jsonDataUpdated = jsonData;
+
+  //console.log(jsonDataUpdated);
 }
 /* KANJI */
 interface Character {
@@ -57,22 +60,89 @@ interface Character {
   "English meaning": string,
   "Readings": string,
 }
+class Card {
+  character: string;
+  reading: string;
+  meaning: string;
 
-let showData = () => {
-  const rChar:Character = jsonDataUpdated[Math.floor(Math.random() * jsonDataUpdated.length)]
-  const exist = mainContent?.querySelector(`#character`);
-  if(exist) {
-      exist.textContent = rChar["New (Shinjitai)"]
-  } else {
-    const charElement = document.createElement('h2');
-    charElement.textContent = rChar["New (Shinjitai)"][0];
-    charElement.id = "character"
-    mainContent?.appendChild(charElement)
+  umdok: string[] = [];
+  hundok: string[] = [];
+
+  constructor(c: string, r: string, m:string) {
+    this.character = c;
+    this.reading = r;
+    this.meaning = m;
+    this.ModifyMeaning();
   }
-  console.log(rChar);
+  ModifyMeaning() {
+    let arr = this.reading.slice(0, this.reading.indexOf('\n')).split('、').map((str) => str.replace(/[\uFF08\uFF09()]/g, "")); //remove "（" and "）"
+    
+    function isKatakana(str: string): boolean {
+      return /^[\u30A0-\u30FF]+$/.test(str); 
+    }
+    
+    this.umdok = arr.filter(str => isKatakana(str.replace(/[\uFF08(].*?[\uFF09)]/g, "")));
+    this.umdok = this.umdok.map((str) => this.KataToHira(str));
+    this.hundok = arr.filter(str => !isKatakana(str.replace(/[\uFF08(].*?[\uFF09)]/g, "")));
+  }
+  
+  KataToHira(input: string): string {
+    return input.replace(/[\u30A1-\u30F6]/g, function(match) {
+      const charCode = match.charCodeAt(0) - 0x60;
+      return String.fromCharCode(charCode);
+    });
+  }
+  ShowInConsole() {
+    console.log(this.character);
+    console.log(this.meaning);
+    console.log(this.umdok);
+    console.log(this.hundok);
+  }
 }
 
-//right arrow
-//<svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#000000" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
-//left arrow
-//<svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#000000" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+function flashcards() {
+  const left = document.getElementById('left-arrow')
+  const right = document.getElementById('right-arrow')
+  if (menuElement && left && right) {
+    menuElement.style.display = "none";
+    left.style.display = "contents";
+    right.style.display = "contents";
+    left.addEventListener('click', () => {
+      showChar();
+    });
+    right.addEventListener('click', () => {
+      showChar();
+    });
+  }
+  showChar();
+}
+let showChar = () => {
+  const rChar:Character = jsonDataUpdated[Math.floor(Math.random() * jsonDataUpdated.length)]
+  let card = new Card(rChar["New (Shinjitai)"], rChar["Readings"], rChar["English meaning"])
+  const container = mainContent?.querySelector(`#container`);
+  if(container) {
+    const charElement = document.createElement('h2');
+    const umdokElement = document.createElement('ul');
+    const hundokElement = document.createElement('ul');
+    charElement.textContent = card.character
+    charElement.id = "character"
+  
+  card.umdok.forEach((v,i) => {
+      const list = document.createElement('li')
+      list.textContent = v;
+      list.className = `umdok umdok-${i}`;
+      umdokElement.appendChild(list);
+  })
+  card.hundok.forEach((v,i) => {
+    const list = document.createElement('li')
+    list.textContent = v;
+    list.className = `hundok hundok-${i}`;
+    hundokElement.appendChild(list);
+})
+    container.innerHTML = '';
+    container.appendChild(charElement);
+    container.appendChild(umdokElement);
+    container.appendChild(hundokElement);
+  }
+  card.ShowInConsole();
+}

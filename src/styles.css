@@ -22,7 +22,7 @@ body {
     border-radius: 16px;
     box-shadow: 0 4px 30px black;
     flex-basis: 700px;
-    min-height: fit-content;
+    min-height: 600px;
     padding: 20px 35px;
 }
 #header {
@@ -70,4 +70,27 @@ body {
     background-color: white;
     padding: 5px;
     text-align: center;
+    height: 50px;
+    width: 100px;
+}
+#left-arrow {
+    display: none;
+   
+}
+#left-arrow svg {
+    width: 40px;
+    height: 40px;
+}
+#right-arrow {
+    display: none;
+}
+#right-arrow svg {
+    width: 40px;
+    height: 40px;
+}
+.umdok {
+    color: red;
+}
+.hundok {
+    color: blue;
 }
