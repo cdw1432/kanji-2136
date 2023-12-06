@@ -138,7 +138,7 @@ let showChar = () => {
     list.textContent = v;
     list.className = `hundok hundok-${i}`;
     hundokElement.appendChild(list);
-})
+  })
     container.innerHTML = '';
     container.appendChild(charElement);
     container.appendChild(umdokElement);

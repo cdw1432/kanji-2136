@@ -5,12 +5,13 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "ts-watch":"tsc --watch",
-    "live":"live-server"
+    "ts-watch": "tsc --watch",
+    "live": "live-server"
   },
   "author": "Woojin Choi",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.10.3",
     "live-server": "^1.2.2",
     "typescript": "^5.3.2"
   }
