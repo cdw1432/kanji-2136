@@ -5,8 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-watch": "tsc --watch",
+    "ts-watch":"tsc --watch",
     "live":"live-server"
   },
   "author": "Woojin Choi",
