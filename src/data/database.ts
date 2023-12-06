@@ -44,7 +44,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "옳을 가",
     "meaningEN": "possible",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "仮",
@@ -59,7 +60,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "아름다울 가",
     "meaningEN": "excellent",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "苛",
@@ -138,14 +140,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "집 각",
     "meaningEN": "tall",
-    "umdok": "かく"
+    "umdok": "かく",
+    "hundok": null
   },
   {
     "character": "却",
     "grade": "S",
     "meaningKR": "물리칠 각",
     "meaningEN": "instead",
-    "umdok": "きゃく"
+    "umdok": "きゃく",
+    "hundok": null
   },
   {
     "character": "殻",
@@ -176,7 +180,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "새길 간",
     "meaningEN": "publish",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "幹",
@@ -199,14 +204,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "볼 간",
     "meaningEN": "watch over",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "簡",
     "grade": "6",
     "meaningKR": "대쪽 간",
     "meaningEN": "simplicity",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "肝",
@@ -221,7 +228,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "개간할 간",
     "meaningEN": "ground-breaking",
-    "umdok": "こん"
+    "umdok": "こん",
+    "hundok": null
   },
   {
     "character": "懇",
@@ -236,7 +244,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "꾸짖을 갈",
     "meaningEN": "hoarse",
-    "umdok": "かつ"
+    "umdok": "かつ",
+    "hundok": null
   },
   {
     "character": "渇",
@@ -259,14 +268,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "갈색 갈",
     "meaningEN": "brown",
-    "umdok": "かつ"
+    "umdok": "かつ",
+    "hundok": null
   },
   {
     "character": "感",
     "grade": "3",
     "meaningKR": "느낄 감",
     "meaningEN": "feeling",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "減",
@@ -289,14 +300,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "헤아릴 감",
     "meaningEN": "intuition",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "紺",
     "grade": "S",
     "meaningKR": "감색 감",
     "meaningEN": "dark blue",
-    "umdok": "こん"
+    "umdok": "こん",
+    "hundok": null
   },
   {
     "character": "堪",
@@ -319,14 +332,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "볼 감",
     "meaningEN": "oversee",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "憾",
     "grade": "S",
     "meaningKR": "섭섭할 감",
     "meaningEN": "remorse",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "鑑",
@@ -341,13 +356,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "갑옷 갑",
     "meaningEN": "armor",
-    "umdok": "こう、かん"
+    "umdok": "こう、かん",
+    "hundok": null
   },
   {
     "character": "岬",
     "grade": "S",
     "meaningKR": "곶 갑",
     "meaningEN": "headland",
+    "umdok": null,
     "hundok": "みさき"
   },
   {
@@ -363,14 +380,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "편안할 강",
     "meaningEN": "health",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "講",
     "grade": "5",
     "meaningKR": "외울 강",
     "meaningEN": "lecture",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "降",
@@ -409,7 +428,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "굳셀 강",
     "meaningEN": "sturdy",
-    "umdok": "ごう"
+    "umdok": "ごう",
+    "hundok": null
   },
   {
     "character": "綱",
@@ -440,14 +460,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "낱 개",
     "meaningEN": "individual",
-    "umdok": "こ"
+    "umdok": "こ",
+    "hundok": null
   },
   {
     "character": "介",
     "grade": "S",
     "meaningKR": "끼일 개",
     "meaningEN": "jammed in",
-    "umdok": "かい"
+    "umdok": "かい",
+    "hundok": null
   },
   {
     "character": "皆",
@@ -462,7 +484,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "분개할 개",
     "meaningEN": "rue",
-    "umdok": "がい"
+    "umdok": "がい",
+    "hundok": null
   },
   {
     "character": "蓋",
@@ -477,28 +500,32 @@ export const database = [
     "grade": "S",
     "meaningKR": "낱 개",
     "meaningEN": "counters for things",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "概",
     "grade": "S",
     "meaningKR": "대개 개",
     "meaningEN": "outline",
-    "umdok": "がい"
+    "umdok": "がい",
+    "hundok": null
   },
   {
     "character": "客",
     "grade": "3",
     "meaningKR": "손 객",
     "meaningEN": "guest",
-    "umdok": "きゃく、かく"
+    "umdok": "きゃく、かく",
+    "hundok": null
   },
   {
     "character": "坑",
     "grade": "S",
     "meaningKR": "구덩이 갱",
     "meaningEN": "pit",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "去",
@@ -529,7 +556,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "클 거",
     "meaningEN": "gigantic",
-    "umdok": "きょ"
+    "umdok": "きょ",
+    "hundok": null
   },
   {
     "character": "拒",
@@ -544,13 +572,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "근거 거",
     "meaningEN": "foothold",
-    "umdok": "きょ"
+    "umdok": "きょ",
+    "hundok": null
   },
   {
     "character": "据",
     "grade": "S",
     "meaningKR": "일할 거",
     "meaningEN": "set",
+    "umdok": null,
     "hundok": "すえる、すわる"
   },
   {
@@ -558,13 +588,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "떨어질 거",
     "meaningEN": "long-distance",
-    "umdok": "きょ"
+    "umdok": "きょ",
+    "hundok": null
   },
   {
     "character": "裾",
     "grade": "S",
     "meaningKR": "옷자락 거",
     "meaningEN": "cuff",
+    "umdok": null,
     "hundok": "すそ"
   },
   {
@@ -588,14 +620,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "물건 건",
     "meaningEN": "affair",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "巾",
     "grade": "S",
     "meaningKR": "수건 건",
     "meaningEN": "towel",
-    "umdok": "きん"
+    "umdok": "きん",
+    "hundok": null
   },
   {
     "character": "乾",
@@ -618,6 +652,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "빌 걸",
     "meaningEN": "beg",
+    "umdok": null,
     "hundok": "こう"
   },
   {
@@ -625,21 +660,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "뛰어날 걸",
     "meaningEN": "greatness",
-    "umdok": "けつ"
+    "umdok": "けつ",
+    "hundok": null
   },
   {
     "character": "検",
     "grade": "5",
     "meaningKR": "검사할 검",
     "meaningEN": "examine",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "倹",
     "grade": "S",
     "meaningKR": "검소할 검",
     "meaningEN": "frugal",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "剣",
@@ -670,7 +708,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "격식 격",
     "meaningEN": "status",
-    "umdok": "かく、こう"
+    "umdok": "かく、こう",
+    "hundok": null
   },
   {
     "character": "激",
@@ -797,13 +836,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "겸손할 겸",
     "meaningEN": "self-effacing",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "鎌",
     "grade": "S",
     "meaningKR": "낫 겸",
     "meaningEN": "sickle",
+    "umdok": null,
     "hundok": "かま"
   },
   {
@@ -811,7 +852,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "서울 경",
     "meaningEN": "capital",
-    "umdok": "きょう、けい、きん"
+    "umdok": "きょう、けい、きん",
+    "hundok": null
   },
   {
     "character": "軽",
@@ -826,14 +868,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "지름길/ 길 경",
     "meaningEN": "diameter",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "景",
     "grade": "4",
     "meaningKR": "볕 경",
     "meaningEN": "scenery",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "鏡",
@@ -888,7 +932,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "깨우칠 경",
     "meaningEN": "guard against",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "茎",
@@ -911,6 +956,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "잠깐 경",
     "meaningEN": "times",
+    "umdok": null,
     "hundok": "ころ"
   },
   {
@@ -918,7 +964,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "줄기 경",
     "meaningEN": "close up",
-    "umdok": "こう、きょう"
+    "umdok": "こう、きょう",
+    "hundok": null
   },
   {
     "character": "硬",
@@ -941,14 +988,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "경사 경",
     "meaningEN": "jubilation",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "憬",
     "grade": "S",
     "meaningKR": "깨달을 경",
     "meaningEN": "long for",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "鯨",
@@ -987,41 +1036,47 @@ export const database = [
     "grade": "3",
     "meaningKR": "지경 계",
     "meaningEN": "world",
-    "umdok": "かい"
+    "umdok": "かい",
+    "hundok": null
   },
   {
     "character": "階",
     "grade": "3",
     "meaningKR": "섬돌 계",
     "meaningEN": "floor of a building",
-    "umdok": "かい"
+    "umdok": "かい",
+    "hundok": null
   },
   {
     "character": "季",
     "grade": "4",
     "meaningKR": "계절 계",
     "meaningEN": "seasons",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "械",
     "grade": "4",
     "meaningKR": "기계 계",
     "meaningEN": "contraption",
-    "umdok": "かい"
+    "umdok": "かい",
+    "hundok": null
   },
   {
     "character": "系",
     "grade": "6",
     "meaningKR": "이을 계",
     "meaningEN": "lineage",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "届",
     "grade": "6",
     "meaningKR": "이를 계",
     "meaningEN": "deliver",
+    "umdok": null,
     "hundok": "とどける、とどく"
   },
   {
@@ -1045,14 +1100,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "열 계",
     "meaningEN": "disclose",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "渓",
     "grade": "S",
     "meaningKR": "시내 계",
     "meaningEN": "mountain stream",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "継",
@@ -1067,7 +1124,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "머무를 계",
     "meaningEN": "consider",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "鶏",
@@ -1114,7 +1172,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "곳집 고",
     "meaningEN": "warehouse",
-    "umdok": "こ、く"
+    "umdok": "こ、く",
+    "hundok": null
   },
   {
     "character": "告",
@@ -1145,6 +1204,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "꽁무니 고",
     "meaningEN": "buttocks",
+    "umdok": null,
     "hundok": "しり"
   },
   {
@@ -1160,14 +1220,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "외로울 고",
     "meaningEN": "orphan",
-    "umdok": "こ"
+    "umdok": "こ",
+    "hundok": null
   },
   {
     "character": "拷",
     "grade": "S",
     "meaningKR": "칠 고",
     "meaningEN": "torture",
-    "umdok": "ごう"
+    "umdok": "ごう",
+    "hundok": null
   },
   {
     "character": "枯",
@@ -1198,14 +1260,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "원고 고",
     "meaningEN": "draft",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "錮",
     "grade": "S",
     "meaningKR": "막을 고",
     "meaningEN": "tie up",
-    "umdok": "こ"
+    "umdok": "こ",
+    "hundok": null
   },
   {
     "character": "顧",
@@ -1236,7 +1300,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "곡식 곡",
     "meaningEN": "cereals",
-    "umdok": "こく"
+    "umdok": "こく",
+    "hundok": null
   },
   {
     "character": "困",
@@ -1251,7 +1316,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "벌레 곤",
     "meaningEN": "descendants",
-    "umdok": "こん"
+    "umdok": "こん",
+    "hundok": null
   },
   {
     "character": "骨",
@@ -1274,7 +1340,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "장인 공",
     "meaningEN": "craft",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "公",
@@ -1289,7 +1356,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "공 공",
     "meaningEN": "achievement",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "共",
@@ -1312,7 +1380,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "구멍 공",
     "meaningEN": "cavity",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "攻",
@@ -1359,7 +1428,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "과목 과",
     "meaningEN": "section",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "果",
@@ -1374,7 +1444,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "공부할 과",
     "meaningEN": "section",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "過",
@@ -1389,7 +1460,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "과자 과",
     "meaningEN": "confectionery",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "誇",
@@ -1404,13 +1476,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "적을 과",
     "meaningEN": "widow",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "鍋",
     "grade": "S",
     "meaningKR": "냄비 과",
     "meaningEN": "pot",
+    "umdok": null,
     "hundok": "なべ"
   },
   {
@@ -1418,21 +1492,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "둘레 곽",
     "meaningEN": "enclosure",
-    "umdok": "かく"
+    "umdok": "かく",
+    "hundok": null
   },
   {
     "character": "館",
     "grade": "3",
     "meaningKR": "집 관",
     "meaningEN": "public building",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "官",
     "grade": "4",
     "meaningKR": "벼슬 관",
     "meaningEN": "government official",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "管",
@@ -1455,7 +1532,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "볼 관",
     "meaningEN": "observe",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "慣",
@@ -1470,6 +1548,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "꿸 관",
     "meaningEN": "skewer",
+    "umdok": null,
     "hundok": "くし"
   },
   {
@@ -1477,7 +1556,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "두레박 관",
     "meaningEN": "tin can",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "冠",
@@ -1508,7 +1588,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "항목 관",
     "meaningEN": "goodwill",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "寛",
@@ -1547,7 +1628,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "쇳돌 광",
     "meaningEN": "mineral",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "狂",
@@ -1562,6 +1644,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "걸 괘",
     "meaningEN": "hang",
+    "umdok": null,
     "hundok": "かける、かかる"
   },
   {
@@ -1577,7 +1660,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "후릴 괴",
     "meaningEN": "kidnap",
-    "umdok": "かい"
+    "umdok": "かい",
+    "hundok": null
   },
   {
     "character": "塊",
@@ -1600,7 +1684,8 @@ export const database = [
     "grade": "1",
     "meaningKR": "학교 교",
     "meaningEN": "school",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "交",
@@ -1639,7 +1724,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "들 교",
     "meaningEN": "outskirts",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "絞",
@@ -1654,7 +1740,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "견줄 교",
     "meaningEN": "contrast",
-    "umdok": "かく"
+    "umdok": "かく",
+    "hundok": null
   },
   {
     "character": "矯",
@@ -1685,7 +1772,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "구분할 구",
     "meaningEN": "ward",
-    "umdok": "く"
+    "umdok": "く",
+    "hundok": null
   },
   {
     "character": "究",
@@ -1740,14 +1828,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "글귀 구",
     "meaningEN": "phrase",
-    "umdok": "く"
+    "umdok": "く",
+    "hundok": null
   },
   {
     "character": "旧",
     "grade": "5",
     "meaningKR": "예 구",
     "meaningEN": "old times",
-    "umdok": "きゅう"
+    "umdok": "きゅう",
+    "hundok": null
   },
   {
     "character": "構",
@@ -1762,7 +1852,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "굽을 구",
     "meaningEN": "capture",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "丘",
@@ -1793,21 +1884,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "구라파 구",
     "meaningEN": "Europe",
-    "umdok": "おう"
+    "umdok": "おう",
+    "hundok": null
   },
   {
     "character": "拘",
     "grade": "S",
     "meaningKR": "잡을 구",
     "meaningEN": "arrest",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "惧",
     "grade": "S",
     "meaningKR": "두려워할 구",
     "meaningEN": "dread",
-    "umdok": "ぐ"
+    "umdok": "ぐ",
+    "hundok": null
   },
   {
     "character": "駆",
@@ -1830,6 +1924,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "망아지 구",
     "meaningEN": "horse",
+    "umdok": null,
     "hundok": "こま"
   },
   {
@@ -1837,7 +1932,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "살 구",
     "meaningEN": "subscription",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "国",
@@ -1852,14 +1948,16 @@ export const database = [
     "grade": "3",
     "meaningKR": "판 국",
     "meaningEN": "office",
-    "umdok": "きょく"
+    "umdok": "きょく",
+    "hundok": null
   },
   {
     "character": "菊",
     "grade": "S",
     "meaningKR": "국화 국",
     "meaningEN": "chrysanthemum",
-    "umdok": "きく"
+    "umdok": "きく",
+    "hundok": null
   },
   {
     "character": "君",
@@ -1874,14 +1972,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "군사 군",
     "meaningEN": "army",
-    "umdok": "ぐん"
+    "umdok": "ぐん",
+    "hundok": null
   },
   {
     "character": "郡",
     "grade": "4",
     "meaningKR": "고을 군",
     "meaningEN": "county",
-    "umdok": "ぐん"
+    "umdok": "ぐん",
+    "hundok": null
   },
   {
     "character": "群",
@@ -1896,7 +1996,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "굽힐 굴",
     "meaningEN": "yield",
-    "umdok": "くつ"
+    "umdok": "くつ",
+    "hundok": null
   },
   {
     "character": "掘",
@@ -1911,6 +2012,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "굴 굴",
     "meaningEN": "ditch",
+    "umdok": null,
     "hundok": "ほり"
   },
   {
@@ -1918,7 +2020,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "굴 굴",
     "meaningEN": "cavern",
-    "umdok": "くつ"
+    "umdok": "くつ",
+    "hundok": null
   },
   {
     "character": "弓",
@@ -1949,7 +2052,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "문서 권",
     "meaningEN": "ticket",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "巻",
@@ -1964,7 +2068,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "권세 권",
     "meaningEN": "rights",
-    "umdok": "けん、ごん"
+    "umdok": "けん、ごん",
+    "hundok": null
   },
   {
     "character": "拳",
@@ -1979,7 +2084,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "우리 권",
     "meaningEN": "sphere",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "勧",
@@ -2002,7 +2108,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "바퀴자국 궤",
     "meaningEN": "rut",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "潰",
@@ -2049,7 +2156,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "법 규",
     "meaningEN": "rule",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "叫",
@@ -2064,21 +2172,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "규탄할 규",
     "meaningEN": "twist",
-    "umdok": "きゅう"
+    "umdok": "きゅう",
+    "hundok": null
   },
   {
     "character": "均",
     "grade": "5",
     "meaningKR": "고를 균",
     "meaningEN": "level",
-    "umdok": "きん"
+    "umdok": "きん",
+    "hundok": null
   },
   {
     "character": "菌",
     "grade": "S",
     "meaningKR": "버섯 균",
     "meaningEN": "germ",
-    "umdok": "きん"
+    "umdok": "きん",
+    "hundok": null
   },
   {
     "character": "極",
@@ -2093,14 +2204,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "심할 극",
     "meaningEN": "drama",
-    "umdok": "げき"
+    "umdok": "げき",
+    "hundok": null
   },
   {
     "character": "克",
     "grade": "S",
     "meaningKR": "이길 극",
     "meaningEN": "overcome",
-    "umdok": "こく"
+    "umdok": "こく",
+    "hundok": null
   },
   {
     "character": "隙",
@@ -2147,7 +2260,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "근 근",
     "meaningEN": "axe",
-    "umdok": "きん"
+    "umdok": "きん",
+    "hundok": null
   },
   {
     "character": "僅",
@@ -2186,7 +2300,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "금할 금",
     "meaningEN": "prohibition",
-    "umdok": "きん"
+    "umdok": "きん",
+    "hundok": null
   },
   {
     "character": "琴",
@@ -2225,14 +2340,16 @@ export const database = [
     "grade": "3",
     "meaningKR": "등급 급",
     "meaningEN": "rank",
-    "umdok": "きゅう"
+    "umdok": "きゅう",
+    "hundok": null
   },
   {
     "character": "給",
     "grade": "4",
     "meaningKR": "줄 급",
     "meaningEN": "salary",
-    "umdok": "きゅう"
+    "umdok": "きゅう",
+    "hundok": null
   },
   {
     "character": "及",
@@ -2247,6 +2364,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "미칠 급",
     "meaningEN": "handle",
+    "umdok": null,
     "hundok": "あつかう"
   },
   {
@@ -2254,21 +2372,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "즐길 긍",
     "meaningEN": "agreement",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "気",
     "grade": "1",
     "meaningKR": "기운 기",
     "meaningEN": "feeling",
-    "umdok": "き、け"
+    "umdok": "き、け",
+    "hundok": null
   },
   {
     "character": "汽",
     "grade": "2",
     "meaningKR": "물 끓는 김 기",
     "meaningEN": "steam",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "記",
@@ -2283,7 +2404,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "기약할 기",
     "meaningEN": "period of time",
-    "umdok": "き、ご"
+    "umdok": "き、ご",
+    "hundok": null
   },
   {
     "character": "起",
@@ -2298,7 +2420,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "벼리 기",
     "meaningEN": "chronicle",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "旗",
@@ -2369,6 +2492,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "살 기",
     "meaningEN": "texture",
+    "umdok": null,
     "hundok": "はだ"
   },
   {
@@ -2376,14 +2500,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "재간 기",
     "meaningEN": "deed",
-    "umdok": "ぎ、き"
+    "umdok": "ぎ、き",
+    "hundok": null
   },
   {
     "character": "岐",
     "grade": "4",
     "meaningKR": "갈림길 기",
     "meaningEN": "branch off",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "忌",
@@ -2398,7 +2524,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "기특할 기",
     "meaningEN": "strange",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "祈",
@@ -2429,6 +2556,7 @@ export const database = [
     "grade": "4",
     "meaningKR": "갑 기",
     "meaningEN": "cape (geography)",
+    "umdok": null,
     "hundok": "さい"
   },
   {
@@ -2436,6 +2564,7 @@ export const database = [
     "grade": "4",
     "meaningKR": "험할 기",
     "meaningEN": "promontory",
+    "umdok": null,
     "hundok": "さき"
   },
   {
@@ -2451,7 +2580,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "바둑 기",
     "meaningEN": "chess piece",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "欺",
@@ -2466,70 +2596,80 @@ export const database = [
     "grade": "S",
     "meaningKR": "바둑 기",
     "meaningEN": "Go",
-    "umdok": "ご"
+    "umdok": "ご",
+    "hundok": null
   },
   {
     "character": "棄",
     "grade": "S",
     "meaningKR": "버릴 기",
     "meaningEN": "abandon",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "畿",
     "grade": "S",
     "meaningKR": "경기 기",
     "meaningEN": "capital",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "騎",
     "grade": "S",
     "meaningKR": "말탈 기",
     "meaningEN": "equestrian",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "緊",
     "grade": "S",
     "meaningKR": "긴할 긴",
     "meaningEN": "tense",
-    "umdok": "きん"
+    "umdok": "きん",
+    "hundok": null
   },
   {
     "character": "吉",
     "grade": "S",
     "meaningKR": "길할 길",
     "meaningEN": "good luck",
-    "umdok": "きち、きつ"
+    "umdok": "きち、きつ",
+    "hundok": null
   },
   {
     "character": "喫",
     "grade": "S",
     "meaningKR": "먹을 끽",
     "meaningEN": "consume",
-    "umdok": "きつ"
+    "umdok": "きつ",
+    "hundok": null
   },
   {
     "character": "那",
     "grade": "S",
     "meaningKR": "어찌 나",
     "meaningEN": "what",
-    "umdok": "な"
+    "umdok": "な",
+    "hundok": null
   },
   {
     "character": "奈",
     "grade": "4",
     "meaningKR": "어찌 나",
     "meaningEN": "what",
-    "umdok": "な"
+    "umdok": "な",
+    "hundok": null
   },
   {
     "character": "諾",
     "grade": "S",
     "meaningKR": "허락할 낙",
     "meaningEN": "consent",
-    "umdok": "だく"
+    "umdok": "だく",
+    "hundok": null
   },
   {
     "character": "難",
@@ -2576,6 +2716,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "여자 낭",
     "meaningEN": "daughter",
+    "umdok": null,
     "hundok": "むすめ"
   },
   {
@@ -2591,6 +2732,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "향내 내",
     "meaningEN": "scent",
+    "umdok": null,
     "hundok": "みおう"
   },
   {
@@ -2622,14 +2764,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "생각 념",
     "meaningEN": "thought",
-    "umdok": "ねん"
+    "umdok": "ねん",
+    "hundok": null
   },
   {
     "character": "寧",
     "grade": "S",
     "meaningKR": "편안할 녕",
     "meaningEN": "rather",
-    "umdok": "ねい"
+    "umdok": "ねい",
+    "hundok": null
   },
   {
     "character": "努",
@@ -2660,7 +2804,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "농사 농",
     "meaningEN": "farming",
-    "umdok": "のう"
+    "umdok": "のう",
+    "hundok": null
   },
   {
     "character": "濃",
@@ -2675,7 +2820,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "골 뇌",
     "meaningEN": "brain",
-    "umdok": "のう"
+    "umdok": "のう",
+    "hundok": null
   },
   {
     "character": "悩",
@@ -2690,14 +2836,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "오줌 뇨",
     "meaningEN": "urine",
-    "umdok": "にょう"
+    "umdok": "にょう",
+    "hundok": null
   },
   {
     "character": "能",
     "grade": "5",
     "meaningKR": "능할 능",
     "meaningEN": "ability",
-    "umdok": "のう"
+    "umdok": "のう",
+    "hundok": null
   },
   {
     "character": "尼",
@@ -2720,7 +2868,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "숨길 닉",
     "meaningEN": "hide",
-    "umdok": "とく"
+    "umdok": "とく",
+    "hundok": null
   },
   {
     "character": "多",
@@ -2743,14 +2892,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "홑 단",
     "meaningEN": "simple",
-    "umdok": "たん"
+    "umdok": "たん",
+    "hundok": null
   },
   {
     "character": "団",
     "grade": "5",
     "meaningKR": "둥글 단",
     "meaningEN": "group",
-    "umdok": "だん、とん"
+    "umdok": "だん、とん",
+    "hundok": null
   },
   {
     "character": "断",
@@ -2765,27 +2916,31 @@ export const database = [
     "grade": "6",
     "meaningKR": "층계 단",
     "meaningEN": "steps",
-    "umdok": "だん"
+    "umdok": "だん",
+    "hundok": null
   },
   {
     "character": "丹",
     "grade": "S",
     "meaningKR": "붉을 단",
     "meaningEN": "cinnabar",
-    "umdok": "たん"
+    "umdok": "たん",
+    "hundok": null
   },
   {
     "character": "旦",
     "grade": "S",
     "meaningKR": "아침 단",
     "meaningEN": "daybreak",
-    "umdok": "たん、だん"
+    "umdok": "たん、だん",
+    "hundok": null
   },
   {
     "character": "但",
     "grade": "S",
     "meaningKR": "다만 단",
     "meaningEN": "however",
+    "umdok": null,
     "hundok": "ただし"
   },
   {
@@ -2801,7 +2956,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "단 단",
     "meaningEN": "podium",
-    "umdok": "だん、たん"
+    "umdok": "だん、たん",
+    "hundok": null
   },
   {
     "character": "鍛",
@@ -2816,14 +2972,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "통달할 달",
     "meaningEN": "attain",
-    "umdok": "たつ"
+    "umdok": "たつ",
+    "hundok": null
   },
   {
     "character": "談",
     "grade": "3",
     "meaningKR": "말씀 담",
     "meaningEN": "discuss",
-    "umdok": "だん"
+    "umdok": "だん",
+    "hundok": null
   },
   {
     "character": "担",
@@ -2838,7 +2996,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "쓸개 담",
     "meaningEN": "gall bladder",
-    "umdok": "たん"
+    "umdok": "たん",
+    "hundok": null
   },
   {
     "character": "淡",
@@ -2885,21 +3044,24 @@ export const database = [
     "grade": "5",
     "meaningKR": "집 당",
     "meaningEN": "public chamber",
-    "umdok": "どう"
+    "umdok": "どう",
+    "hundok": null
   },
   {
     "character": "党",
     "grade": "6",
     "meaningKR": "무리 당",
     "meaningEN": "group",
-    "umdok": "とう"
+    "umdok": "とう",
+    "hundok": null
   },
   {
     "character": "糖",
     "grade": "6",
     "meaningKR": "엿 당",
     "meaningEN": "sugar",
-    "umdok": "とう"
+    "umdok": "とう",
+    "hundok": null
   },
   {
     "character": "唐",
@@ -2922,7 +3084,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "대 대/ 태풍 태",
     "meaningEN": "pedestal",
-    "umdok": "だい、たい"
+    "umdok": "だい、たい",
+    "hundok": null
   },
   {
     "character": "代",
@@ -2937,7 +3100,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "대할 대",
     "meaningEN": "opposite",
-    "umdok": "たい、つい"
+    "umdok": "たい、つい",
+    "hundok": null
   },
   {
     "character": "待",
@@ -2960,7 +3124,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "무리 대",
     "meaningEN": "group",
-    "umdok": "たい"
+    "umdok": "たい",
+    "hundok": null
   },
   {
     "character": "貸",
@@ -2991,7 +3156,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "큰 덕",
     "meaningEN": "benevolence",
-    "umdok": "とく"
+    "umdok": "とく",
+    "hundok": null
   },
   {
     "character": "刀",
@@ -3046,7 +3212,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "무리 도",
     "meaningEN": "junior",
-    "umdok": "とどう"
+    "umdok": "とどう",
+    "hundok": null
   },
   {
     "character": "導",
@@ -3093,7 +3260,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "길 도",
     "meaningEN": "route",
-    "umdok": "と"
+    "umdok": "と",
+    "hundok": null
   },
   {
     "character": "桃",
@@ -3124,7 +3292,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "질그릇 도",
     "meaningEN": "pottery",
-    "umdok": "とう"
+    "umdok": "とう",
+    "hundok": null
   },
   {
     "character": "渡",
@@ -3179,7 +3348,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "독 독",
     "meaningEN": "poison",
-    "umdok": "どく"
+    "umdok": "どく",
+    "hundok": null
   },
   {
     "character": "独",
@@ -3194,14 +3364,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "감독할 독",
     "meaningEN": "coach",
-    "umdok": "とく"
+    "umdok": "とく",
+    "hundok": null
   },
   {
     "character": "篤",
     "grade": "S",
     "meaningKR": "도타울 독",
     "meaningEN": "fervent",
-    "umdok": "とく"
+    "umdok": "とく",
+    "hundok": null
   },
   {
     "character": "豚",
@@ -3216,7 +3388,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "조아릴 돈",
     "meaningEN": "suddenly",
-    "umdok": "とん"
+    "umdok": "とん",
+    "hundok": null
   },
   {
     "character": "突",
@@ -3279,7 +3452,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "구리 동",
     "meaningEN": "copper",
-    "umdok": "どう"
+    "umdok": "どう",
+    "hundok": null
   },
   {
     "character": "洞",
@@ -3302,7 +3476,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "몸통 동",
     "meaningEN": "trunk",
-    "umdok": "どう"
+    "umdok": "どう",
+    "hundok": null
   },
   {
     "character": "棟",
@@ -3349,21 +3524,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "말 두",
     "meaningEN": "Big Dipper",
-    "umdok": "ととう"
+    "umdok": "ととう",
+    "hundok": null
   },
   {
     "character": "痘",
     "grade": "S",
     "meaningKR": "역질 두",
     "meaningEN": "pox",
-    "umdok": "とん"
+    "umdok": "とん",
+    "hundok": null
   },
   {
     "character": "屯",
     "grade": "S",
     "meaningKR": "진칠 둔",
     "meaningEN": "barracks",
-    "umdok": "どん"
+    "umdok": "どん",
+    "hundok": null
   },
   {
     "character": "鈍",
@@ -3410,7 +3588,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "베낄 등",
     "meaningEN": "mimeograph",
-    "umdok": "とう"
+    "umdok": "とう",
+    "hundok": null
   },
   {
     "character": "藤",
@@ -3425,7 +3604,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "오를 등",
     "meaningEN": "inflation",
-    "umdok": "とう"
+    "umdok": "とう",
+    "hundok": null
   },
   {
     "character": "裸",
@@ -3440,7 +3620,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "벌일 라",
     "meaningEN": "gauze",
-    "umdok": "ら"
+    "umdok": "ら",
+    "hundok": null
   },
   {
     "character": "楽",
@@ -3471,7 +3652,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "쇠젖 락",
     "meaningEN": "dairy products",
-    "umdok": "らく"
+    "umdok": "らく",
+    "hundok": null
   },
   {
     "character": "卵",
@@ -3494,21 +3676,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "난간 란",
     "meaningEN": "column",
-    "umdok": "らん"
+    "umdok": "らん",
+    "hundok": null
   },
   {
     "character": "辣",
     "grade": "S",
     "meaningKR": "매울 랄",
     "meaningEN": "bitter",
-    "umdok": "らつ"
+    "umdok": "らつ",
+    "hundok": null
   },
   {
     "character": "覧",
     "grade": "6",
     "meaningKR": "볼 람",
     "meaningEN": "perusal",
-    "umdok": "らん"
+    "umdok": "らん",
+    "hundok": null
   },
   {
     "character": "嵐",
@@ -3523,7 +3708,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "넘칠 람",
     "meaningEN": "excessive",
-    "umdok": "らん"
+    "umdok": "らん",
+    "hundok": null
   },
   {
     "character": "藍",
@@ -3538,7 +3724,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "끌 랍",
     "meaningEN": "crush",
-    "umdok": "ら"
+    "umdok": "ら",
+    "hundok": null
   },
   {
     "character": "朗",
@@ -3553,21 +3740,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "사내 랑",
     "meaningEN": "son",
-    "umdok": "ろう"
+    "umdok": "ろう",
+    "hundok": null
   },
   {
     "character": "浪",
     "grade": "S",
     "meaningKR": "물결 랑",
     "meaningEN": "wandering",
-    "umdok": "ろう"
+    "umdok": "ろう",
+    "hundok": null
   },
   {
     "character": "廊",
     "grade": "S",
     "meaningKR": "행랑 랑",
     "meaningEN": "corridor",
-    "umdok": "ろう"
+    "umdok": "ろう",
+    "hundok": null
   },
   {
     "character": "来",
@@ -3590,14 +3780,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "간략할 략",
     "meaningEN": "abbreviation",
-    "umdok": "りゃく"
+    "umdok": "りゃく",
+    "hundok": null
   },
   {
     "character": "両",
     "grade": "3",
     "meaningKR": "두 량",
     "meaningEN": "both",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "良",
@@ -3652,7 +3844,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "음률 려",
     "meaningEN": "spine",
-    "umdok": "ろ"
+    "umdok": "ろ",
+    "hundok": null
   },
   {
     "character": "励",
@@ -3667,14 +3860,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "짝 려",
     "meaningEN": "companion",
-    "umdok": "りょ"
+    "umdok": "りょ",
+    "hundok": null
   },
   {
     "character": "慮",
     "grade": "S",
     "meaningKR": "생각할 려",
     "meaningEN": "prudence",
-    "umdok": "りょ"
+    "umdok": "りょ",
+    "hundok": null
   },
   {
     "character": "麗",
@@ -3697,7 +3892,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "지낼 력",
     "meaningEN": "curriculum",
-    "umdok": "れき"
+    "umdok": "れき",
+    "hundok": null
   },
   {
     "character": "暦",
@@ -3744,7 +3940,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "벌일 렬",
     "meaningEN": "row",
-    "umdok": "れつ"
+    "umdok": "れつ",
+    "hundok": null
   },
   {
     "character": "劣",
@@ -3759,7 +3956,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "매울 렬",
     "meaningEN": "ardent",
-    "umdok": "れつ"
+    "umdok": "れつ",
+    "hundok": null
   },
   {
     "character": "裂",
@@ -3774,28 +3972,32 @@ export const database = [
     "grade": "S",
     "meaningKR": "청렴할 렴",
     "meaningEN": "bargain",
-    "umdok": "れん"
+    "umdok": "れん",
+    "hundok": null
   },
   {
     "character": "猟",
     "grade": "S",
     "meaningKR": "사냥 렵",
     "meaningEN": "game-hunting",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "令",
     "grade": "4",
     "meaningKR": "하여금 령",
     "meaningEN": "orders",
-    "umdok": "れい"
+    "umdok": "れい",
+    "hundok": null
   },
   {
     "character": "領",
     "grade": "5",
     "meaningKR": "거느릴 령",
     "meaningEN": "territory",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "鈴",
@@ -3810,7 +4012,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "떨어질 령/영 령",
     "meaningEN": "zero",
-    "umdok": "れい"
+    "umdok": "れい",
+    "hundok": null
   },
   {
     "character": "霊",
@@ -3825,14 +4028,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "나이 령",
     "meaningEN": "age",
-    "umdok": "れい"
+    "umdok": "れい",
+    "hundok": null
   },
   {
     "character": "礼",
     "grade": "3",
     "meaningKR": "예도 례",
     "meaningEN": "thanks",
-    "umdok": "れい、らい"
+    "umdok": "れい、らい",
+    "hundok": null
   },
   {
     "character": "例",
@@ -3847,7 +4052,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "종 례",
     "meaningEN": "slave",
-    "umdok": "れい"
+    "umdok": "れい",
+    "hundok": null
   },
   {
     "character": "路",
@@ -3870,14 +4076,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "일할 로",
     "meaningEN": "labour",
-    "umdok": "ろう"
+    "umdok": "ろう",
+    "hundok": null
   },
   {
     "character": "炉",
     "grade": "S",
     "meaningKR": "화로 로",
     "meaningEN": "hearth",
-    "umdok": "ろ"
+    "umdok": "ろ",
+    "hundok": null
   },
   {
     "character": "虜",
@@ -3908,7 +4116,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "기록할 록",
     "meaningEN": "record",
-    "umdok": "ろく"
+    "umdok": "ろく",
+    "hundok": null
   },
   {
     "character": "鹿",
@@ -3931,7 +4140,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "논할 론",
     "meaningEN": "theory",
-    "umdok": "ろん"
+    "umdok": "ろん",
+    "hundok": null
   },
   {
     "character": "弄",
@@ -3946,6 +4156,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "비 올 롱",
     "meaningEN": "waterfall",
+    "umdok": null,
     "hundok": "たき"
   },
   {
@@ -3985,6 +4196,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "여울 뢰",
     "meaningEN": "rapids",
+    "umdok": null,
     "hundok": "せ"
   },
   {
@@ -3992,42 +4204,48 @@ export const database = [
     "grade": "4",
     "meaningKR": "헤아릴 료",
     "meaningEN": "fee",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "了",
     "grade": "S",
     "meaningKR": "마칠 료",
     "meaningEN": "finish",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "僚",
     "grade": "S",
     "meaningKR": "동료 료",
     "meaningEN": "colleague",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "寮",
     "grade": "S",
     "meaningKR": "동관 료",
     "meaningEN": "dormitory",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "療",
     "grade": "S",
     "meaningKR": "병 고칠 료",
     "meaningEN": "heal",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "瞭",
     "grade": "S",
     "meaningKR": "밝을 료",
     "meaningEN": "clear",
-    "umdok": "りょう"
+    "umdok": "りょう",
+    "hundok": null
   },
   {
     "character": "竜",
@@ -4050,21 +4268,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "여러/자주 루",
     "meaningEN": "accumulate",
-    "umdok": "るい"
+    "umdok": "るい",
+    "hundok": null
   },
   {
     "character": "塁",
     "grade": "S",
     "meaningKR": "보루 루",
     "meaningEN": "bases",
-    "umdok": "るい"
+    "umdok": "るい",
+    "hundok": null
   },
   {
     "character": "楼",
     "grade": "S",
     "meaningKR": "다락 루",
     "meaningEN": "watchtower",
-    "umdok": "ろう"
+    "umdok": "ろう",
+    "hundok": null
   },
   {
     "character": "漏",
@@ -4087,7 +4308,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "무리 류",
     "meaningEN": "sort",
-    "umdok": "るい"
+    "umdok": "るい",
+    "hundok": null
   },
   {
     "character": "留",
@@ -4110,21 +4332,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "유황 류",
     "meaningEN": "sulphur",
-    "umdok": "りゅう"
+    "umdok": "りゅう",
+    "hundok": null
   },
   {
     "character": "瑠",
     "grade": "S",
     "meaningKR": "맑은 유리 류",
     "meaningEN": "lapis lazuli",
-    "umdok": "る"
+    "umdok": "る",
+    "hundok": null
   },
   {
     "character": "陸",
     "grade": "4",
     "meaningKR": "뭍 륙",
     "meaningEN": "land",
-    "umdok": "りき"
+    "umdok": "りき",
+    "hundok": null
   },
   {
     "character": "輪",
@@ -4139,7 +4364,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "인륜 륜",
     "meaningEN": "ethics",
-    "umdok": "りん"
+    "umdok": "りん",
+    "hundok": null
   },
   {
     "character": "率",
@@ -4154,21 +4380,24 @@ export const database = [
     "grade": "6",
     "meaningKR": "법칙 률",
     "meaningEN": "law",
-    "umdok": "りつ、りち"
+    "umdok": "りつ、りち",
+    "hundok": null
   },
   {
     "character": "慄",
     "grade": "S",
     "meaningKR": "떨릴 률",
     "meaningEN": "fear",
-    "umdok": "りつ"
+    "umdok": "りつ",
+    "hundok": null
   },
   {
     "character": "隆",
     "grade": "S",
     "meaningKR": "높을 륭 ",
     "meaningEN": "hump",
-    "umdok": "りゅう"
+    "umdok": "りゅう",
+    "hundok": null
   },
   {
     "character": "陵",
@@ -4183,7 +4412,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "다스릴 리",
     "meaningEN": "reason",
-    "umdok": "り"
+    "umdok": "り",
+    "hundok": null
   },
   {
     "character": "里",
@@ -4214,14 +4444,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "관리 리",
     "meaningEN": "officer",
-    "umdok": "り"
+    "umdok": "り",
+    "hundok": null
   },
   {
     "character": "厘",
     "grade": "S",
     "meaningKR": "이 리",
     "meaningEN": "thousandth",
-    "umdok": "りん"
+    "umdok": "りん",
+    "hundok": null
   },
   {
     "character": "梨",
@@ -4236,7 +4468,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "설사 리",
     "meaningEN": "diarrhea",
-    "umdok": "り"
+    "umdok": "り",
+    "hundok": null
   },
   {
     "character": "履",
@@ -4251,7 +4484,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "유리 리",
     "meaningEN": "glassy",
-    "umdok": "り"
+    "umdok": "り",
+    "hundok": null
   },
   {
     "character": "離",
@@ -4322,7 +4556,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "문지를 마",
     "meaningEN": "chafe",
-    "umdok": "ま"
+    "umdok": "ま",
+    "hundok": null
   },
   {
     "character": "磨",
@@ -4337,35 +4572,40 @@ export const database = [
     "grade": "S",
     "meaningKR": "마귀 마",
     "meaningEN": "witch",
-    "umdok": "ま"
+    "umdok": "ま",
+    "hundok": null
   },
   {
     "character": "幕",
     "grade": "6",
     "meaningKR": "장막 막",
     "meaningEN": "curtain",
-    "umdok": "まく"
+    "umdok": "まく",
+    "hundok": null
   },
   {
     "character": "漠",
     "grade": "S",
     "meaningKR": "넓을/사막 막",
     "meaningEN": "vague",
-    "umdok": "ばく"
+    "umdok": "ばく",
+    "hundok": null
   },
   {
     "character": "膜",
     "grade": "S",
     "meaningKR": "꺼풀/막 막",
     "meaningEN": "membrane",
-    "umdok": "まく"
+    "umdok": "まく",
+    "hundok": null
   },
   {
     "character": "万",
     "grade": "2",
     "meaningKR": "일만 만",
     "meaningEN": "ten thousand",
-    "umdok": "まん、ばん"
+    "umdok": "まん、ばん",
+    "hundok": null
   },
   {
     "character": "満",
@@ -4380,35 +4620,40 @@ export const database = [
     "grade": "6",
     "meaningKR": "늦을 만",
     "meaningEN": "nightfall",
-    "umdok": "ばん"
+    "umdok": "ばん",
+    "hundok": null
   },
   {
     "character": "蛮",
     "grade": "S",
     "meaningKR": "오랑캐 만",
     "meaningEN": "barbarian",
-    "umdok": "ばん"
+    "umdok": "ばん",
+    "hundok": null
   },
   {
     "character": "湾",
     "grade": "S",
     "meaningKR": "물굽이 만",
     "meaningEN": "gulf",
-    "umdok": "わん"
+    "umdok": "わん",
+    "hundok": null
   },
   {
     "character": "漫",
     "grade": "S",
     "meaningKR": "흩어질 만",
     "meaningEN": "cartoon",
-    "umdok": "まん"
+    "umdok": "まん",
+    "hundok": null
   },
   {
     "character": "慢",
     "grade": "S",
     "meaningKR": "거만할 만",
     "meaningEN": "ridicule",
-    "umdok": "まん"
+    "umdok": "まん",
+    "hundok": null
   },
   {
     "character": "末",
@@ -4423,7 +4668,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "지울 말",
     "meaningEN": "rub",
-    "umdok": "まつ"
+    "umdok": "まつ",
+    "hundok": null
   },
   {
     "character": "望",
@@ -4462,7 +4708,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "망령될 망",
     "meaningEN": "delusion",
-    "umdok": "もう"
+    "umdok": "もう",
+    "hundok": null
   },
   {
     "character": "網",
@@ -4477,7 +4724,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "매양 매",
     "meaningEN": "every",
-    "umdok": "まい"
+    "umdok": "まい",
+    "hundok": null
   },
   {
     "character": "売",
@@ -4516,14 +4764,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "낱 매",
     "meaningEN": "sheet of...",
-    "umdok": "まい"
+    "umdok": "まい",
+    "hundok": null
   },
   {
     "character": "昧",
     "grade": "S",
     "meaningKR": "어두울 매",
     "meaningEN": "foolish",
-    "umdok": "まい"
+    "umdok": "まい",
+    "hundok": null
   },
   {
     "character": "埋",
@@ -4538,14 +4788,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "중매 매",
     "meaningEN": "mediator",
-    "umdok": "ばい"
+    "umdok": "ばい",
+    "hundok": null
   },
   {
     "character": "魅",
     "grade": "S",
     "meaningKR": "매혹할 매",
     "meaningEN": "fascination",
-    "umdok": "み"
+    "umdok": "み",
+    "hundok": null
   },
   {
     "character": "罵",
@@ -4568,28 +4820,32 @@ export const database = [
     "grade": "5",
     "meaningKR": "줄기 맥",
     "meaningEN": "vein",
-    "umdok": "みゃく"
+    "umdok": "みゃく",
+    "hundok": null
   },
   {
     "character": "盟",
     "grade": "6",
     "meaningKR": "맹세 맹",
     "meaningEN": "alliance",
-    "umdok": "めい"
+    "umdok": "めい",
+    "hundok": null
   },
   {
     "character": "盲",
     "grade": "S",
     "meaningKR": "소경/ 눈 멀 맹",
     "meaningEN": "blind",
-    "umdok": "もう"
+    "umdok": "もう",
+    "hundok": null
   },
   {
     "character": "猛",
     "grade": "S",
     "meaningKR": "사나울 맹",
     "meaningEN": "fierce",
-    "umdok": "もう"
+    "umdok": "もう",
+    "hundok": null
   },
   {
     "character": "面",
@@ -4604,7 +4860,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "힘쓸 면",
     "meaningEN": "exertion",
-    "umdok": "べん"
+    "umdok": "べん",
+    "hundok": null
   },
   {
     "character": "綿",
@@ -4635,7 +4892,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "밀가루 면",
     "meaningEN": "noodles",
-    "umdok": "めん"
+    "umdok": "めん",
+    "hundok": null
   },
   {
     "character": "滅",
@@ -4682,6 +4940,7 @@ export const database = [
     "grade": "3",
     "meaningKR": "그릇 명",
     "meaningEN": "dish",
+    "umdok": null,
     "hundok": "さら"
   },
   {
@@ -4697,14 +4956,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "어두울 명",
     "meaningEN": "dark",
-    "umdok": "めい、みょう"
+    "umdok": "めい、みょう",
+    "hundok": null
   },
   {
     "character": "銘",
     "grade": "S",
     "meaningKR": "새길 명",
     "meaningEN": "inscription",
-    "umdok": "めい"
+    "umdok": "めい",
+    "hundok": null
   },
   {
     "character": "毛",
@@ -4727,7 +4988,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "본뜰 모",
     "meaningEN": "imitation",
-    "umdok": "も、ぼ"
+    "umdok": "も、ぼ",
+    "hundok": null
   },
   {
     "character": "暮",
@@ -4766,7 +5028,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "아무 모",
     "meaningEN": "so-and-so",
-    "umdok": "ぼう"
+    "umdok": "ぼう",
+    "hundok": null
   },
   {
     "character": "耗",
@@ -4789,7 +5052,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "모자 모",
     "meaningEN": "cap",
-    "umdok": "ぼう"
+    "umdok": "ぼう",
+    "hundok": null
   },
   {
     "character": "慕",
@@ -4852,7 +5116,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "빠질 몰",
     "meaningEN": "drown",
-    "umdok": "ぼつ"
+    "umdok": "ぼつ",
+    "hundok": null
   },
   {
     "character": "夢",
@@ -4875,7 +5140,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "묘할 묘",
     "meaningEN": "exquisite",
-    "umdok": "みょう"
+    "umdok": "みょう",
+    "hundok": null
   },
   {
     "character": "苗",
@@ -4890,6 +5156,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "이랑 묘",
     "meaningEN": "furrow",
+    "umdok": null,
     "hundok": "うね、せ"
   },
   {
@@ -4921,7 +5188,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "호반 무",
     "meaningEN": "military",
-    "umdok": "ぶ、む"
+    "umdok": "ぶ、む",
+    "hundok": null
   },
   {
     "character": "務",
@@ -4936,7 +5204,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "무역할 무",
     "meaningEN": "trade",
-    "umdok": "ぼう"
+    "umdok": "ぼう",
+    "hundok": null
   },
   {
     "character": "茂",
@@ -5015,6 +5284,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "모기 문",
     "meaningEN": "mosquito",
+    "umdok": null,
     "hundok": "か"
   },
   {
@@ -5022,7 +5292,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "무늬 문",
     "meaningEN": "family crest",
-    "umdok": "もん"
+    "umdok": "もん",
+    "hundok": null
   },
   {
     "character": "物",
@@ -5061,7 +5332,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "아닐 미",
     "meaningEN": "not yet",
-    "umdok": "み"
+    "umdok": "み",
+    "hundok": null
   },
   {
     "character": "迷",
@@ -5100,13 +5372,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "작을 미",
     "meaningEN": "delicate",
-    "umdok": "び"
+    "umdok": "び",
+    "hundok": null
   },
   {
     "character": "謎",
     "grade": "S",
     "meaningKR": "수수께끼 미",
     "meaningEN": "riddle",
+    "umdok": null,
     "hundok": "なぞ"
   },
   {
@@ -5122,35 +5396,40 @@ export const database = [
     "grade": "S",
     "meaningKR": "민감할 민",
     "meaningEN": "cleverness",
-    "umdok": "びん"
+    "umdok": "びん",
+    "hundok": null
   },
   {
     "character": "密",
     "grade": "6",
     "meaningKR": "빽빽할 밀",
     "meaningEN": "secrecy",
-    "umdok": "みつ"
+    "umdok": "みつ",
+    "hundok": null
   },
   {
     "character": "蜜",
     "grade": "S",
     "meaningKR": "꿀 밀",
     "meaningEN": "honey",
-    "umdok": "みつ"
+    "umdok": "みつ",
+    "hundok": null
   },
   {
     "character": "博",
     "grade": "4",
     "meaningKR": "넓을 박",
     "meaningEN": "Dr.",
-    "umdok": "はく、ばく"
+    "umdok": "はく、ばく",
+    "hundok": null
   },
   {
     "character": "朴",
     "grade": "S",
     "meaningKR": "성씨 박",
     "meaningEN": "crude",
-    "umdok": "ぼく"
+    "umdok": "ぼく",
+    "hundok": null
   },
   {
     "character": "泊",
@@ -5165,7 +5444,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "칠 박",
     "meaningEN": "clap",
-    "umdok": "はく、ひょう"
+    "umdok": "はく、ひょう",
+    "hundok": null
   },
   {
     "character": "迫",
@@ -5188,14 +5468,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "배 박",
     "meaningEN": "liner",
-    "umdok": "はく"
+    "umdok": "はく",
+    "hundok": null
   },
   {
     "character": "撲",
     "grade": "S",
     "meaningKR": "칠 박",
     "meaningEN": "slap",
-    "umdok": "ぼく"
+    "umdok": "ぼく",
+    "hundok": null
   },
   {
     "character": "薄",
@@ -5250,7 +5532,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "나눌 반",
     "meaningEN": "squad",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "伴",
@@ -5273,7 +5556,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "일반 반",
     "meaningEN": "generally",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "斑",
@@ -5288,28 +5572,32 @@ export const database = [
     "grade": "S",
     "meaningKR": "옮길 반",
     "meaningEN": "conveyor",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "頒",
     "grade": "S",
     "meaningKR": "나눌 반",
     "meaningEN": "partition",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "盤",
     "grade": "S",
     "meaningKR": "소반 반",
     "meaningEN": "tray",
-    "umdok": "ばん"
+    "umdok": "ばん",
+    "hundok": null
   },
   {
     "character": "発",
     "grade": "3",
     "meaningKR": "필 발",
     "meaningEN": "departure",
-    "umdok": "はつ"
+    "umdok": "はつ",
+    "hundok": null
   },
   {
     "character": "抜",
@@ -5332,7 +5620,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "바리때 발",
     "meaningEN": "bowl",
-    "umdok": "はち"
+    "umdok": "はち",
+    "hundok": null
   },
   {
     "character": "髪",
@@ -5403,7 +5692,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "동네 방",
     "meaningEN": "boy",
-    "umdok": "ぼう、ぼっ"
+    "umdok": "ぼう、ぼっ",
+    "hundok": null
   },
   {
     "character": "房",
@@ -5418,7 +5708,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "살찔 방",
     "meaningEN": "obese",
-    "umdok": "ぼう"
+    "umdok": "ぼう",
+    "hundok": null
   },
   {
     "character": "倣",
@@ -5457,7 +5748,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "곱 배",
     "meaningEN": "double",
-    "umdok": "ばい"
+    "umdok": "ばい",
+    "hundok": null
   },
   {
     "character": "拝",
@@ -5480,7 +5772,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "배우 배",
     "meaningEN": "haiku",
-    "umdok": "はい"
+    "umdok": "はい",
+    "hundok": null
   },
   {
     "character": "杯",
@@ -5495,14 +5788,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "배척할 배",
     "meaningEN": "repudiate",
-    "umdok": "はい"
+    "umdok": "はい",
+    "hundok": null
   },
   {
     "character": "陪",
     "grade": "S",
     "meaningKR": "모실 배",
     "meaningEN": "obeisance",
-    "umdok": "ばい"
+    "umdok": "ばい",
+    "hundok": null
   },
   {
     "character": "培",
@@ -5517,14 +5812,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "무리 배",
     "meaningEN": "comrade",
-    "umdok": "はい"
+    "umdok": "はい",
+    "hundok": null
   },
   {
     "character": "賠",
     "grade": "S",
     "meaningKR": "물어줄 배",
     "meaningEN": "compensation",
-    "umdok": "ばい"
+    "umdok": "ばい",
+    "hundok": null
   },
   {
     "character": "白",
@@ -5539,28 +5836,32 @@ export const database = [
     "grade": "1",
     "meaningKR": "일백 백",
     "meaningEN": "hundred",
-    "umdok": "ひゃく"
+    "umdok": "ひゃく",
+    "hundok": null
   },
   {
     "character": "伯",
     "grade": "S",
     "meaningKR": "맏 백",
     "meaningEN": "chief",
-    "umdok": "はく"
+    "umdok": "はく",
+    "hundok": null
   },
   {
     "character": "番",
     "grade": "2",
     "meaningKR": "차례 번",
     "meaningEN": "one's turn",
-    "umdok": "ばん"
+    "umdok": "ばん",
+    "hundok": null
   },
   {
     "character": "繁",
     "grade": "S",
     "meaningKR": "번성할 번",
     "meaningEN": "luxuriant",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "煩",
@@ -5599,14 +5900,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "벌할 벌",
     "meaningEN": "penalty",
-    "umdok": "ばつ、ばち"
+    "umdok": "ばつ、ばち",
+    "hundok": null
   },
   {
     "character": "閥",
     "grade": "S",
     "meaningKR": "문벌 벌",
     "meaningEN": "clique",
-    "umdok": "ばつ"
+    "umdok": "ばつ",
+    "hundok": null
   },
   {
     "character": "犯",
@@ -5629,14 +5932,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "넘칠 범",
     "meaningEN": "spread out",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "汎",
     "grade": "S",
     "meaningKR": "넓을 범",
     "meaningEN": "pan-",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "帆",
@@ -5659,7 +5964,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "법 법",
     "meaningEN": "method",
-    "umdok": "ほう、ほっ、はっ"
+    "umdok": "ほう、ほっ、はっ",
+    "hundok": null
   },
   {
     "character": "壁",
@@ -5682,7 +5988,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "구슬 벽",
     "meaningEN": "sphere",
-    "umdok": "へき"
+    "umdok": "へき",
+    "hundok": null
   },
   {
     "character": "辺",
@@ -5705,7 +6012,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "말씀 변",
     "meaningEN": "valve",
-    "umdok": "べん"
+    "umdok": "べん",
+    "hundok": null
   },
   {
     "character": "別",
@@ -5728,7 +6036,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "병사 병",
     "meaningEN": "soldier",
-    "umdok": "へい"
+    "umdok": "へい",
+    "hundok": null
   },
   {
     "character": "並",
@@ -5743,7 +6052,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "남녘 병",
     "meaningEN": "third class",
-    "umdok": "へい"
+    "umdok": "へい",
+    "hundok": null
   },
   {
     "character": "併",
@@ -5766,14 +6076,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "병 병",
     "meaningEN": "flower pot",
-    "umdok": "びん"
+    "umdok": "びん",
+    "hundok": null
   },
   {
     "character": "塀",
     "grade": "S",
     "meaningKR": "담 병",
     "meaningEN": "fence",
-    "umdok": "へい"
+    "umdok": "へい",
+    "hundok": null
   },
   {
     "character": "餅",
@@ -5828,42 +6140,48 @@ export const database = [
     "grade": "S",
     "meaningKR": "넓을 보",
     "meaningEN": "universal",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "譜",
     "grade": "S",
     "meaningKR": "족보 보",
     "meaningEN": "musical score",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "服",
     "grade": "3",
     "meaningKR": "옷 복",
     "meaningEN": "clothes",
-    "umdok": "ふく"
+    "umdok": "ふく",
+    "hundok": null
   },
   {
     "character": "福",
     "grade": "3",
     "meaningKR": "복 복",
     "meaningEN": "luck",
-    "umdok": "ふく"
+    "umdok": "ふく",
+    "hundok": null
   },
   {
     "character": "復",
     "grade": "5",
     "meaningKR": "회복할 복/ 다시 부",
     "meaningEN": "again",
-    "umdok": "ふく"
+    "umdok": "ふく",
+    "hundok": null
   },
   {
     "character": "複",
     "grade": "5",
     "meaningKR": "겹칠 복",
     "meaningEN": "duplicate",
-    "umdok": "ふく"
+    "umdok": "ふく",
+    "hundok": null
   },
   {
     "character": "腹",
@@ -5886,7 +6204,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "종 복",
     "meaningEN": "me",
-    "umdok": "ぼく"
+    "umdok": "ぼく",
+    "hundok": null
   },
   {
     "character": "覆",
@@ -5909,7 +6228,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "막대 봉",
     "meaningEN": "rod",
-    "umdok": "ぼう"
+    "umdok": "ぼう",
+    "hundok": null
   },
   {
     "character": "奉",
@@ -5924,14 +6244,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "봉할 봉",
     "meaningEN": "seal",
-    "umdok": "ふう、ほう"
+    "umdok": "ふう、ほう",
+    "hundok": null
   },
   {
     "character": "俸",
     "grade": "S",
     "meaningKR": "녹 봉",
     "meaningEN": "salary",
-    "umdok": "ほう"
+    "umdok": "ほう",
+    "hundok": null
   },
   {
     "character": "峰",
@@ -6002,21 +6324,24 @@ export const database = [
     "grade": "4",
     "meaningKR": "마을 부",
     "meaningEN": "urban prefecture",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "副",
     "grade": "4",
     "meaningKR": "버금 부",
     "meaningEN": "vice",
-    "umdok": "ふく"
+    "umdok": "ふく",
+    "hundok": null
   },
   {
     "character": "婦",
     "grade": "5",
     "meaningKR": "며느리 부",
     "meaningEN": "lady",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "富",
@@ -6047,7 +6372,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "언덕 부",
     "meaningEN": "mound",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "附",
@@ -6070,7 +6396,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "부고 부",
     "meaningEN": "obituary",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "浮",
@@ -6085,7 +6412,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "쪼갤 부",
     "meaningEN": "divide",
-    "umdok": "ぼう"
+    "umdok": "ぼう",
+    "hundok": null
   },
   {
     "character": "釜",
@@ -6100,7 +6428,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "부호 부",
     "meaningEN": "token",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "腐",
@@ -6123,7 +6452,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "부세 부",
     "meaningEN": "levy",
-    "umdok": "ふ"
+    "umdok": "ふ",
+    "hundok": null
   },
   {
     "character": "膚",
@@ -6138,7 +6468,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "문서 부",
     "meaningEN": "register",
-    "umdok": "ぼ"
+    "umdok": "ぼ",
+    "hundok": null
   },
   {
     "character": "北",
@@ -6177,14 +6508,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "달릴 분",
     "meaningEN": "bustle",
-    "umdok": "ほん、はしる"
+    "umdok": "ほん、はしる",
+    "hundok": null
   },
   {
     "character": "盆",
     "grade": "S",
     "meaningKR": "동이 분",
     "meaningEN": "basin",
-    "umdok": "ぼん"
+    "umdok": "ぼん",
+    "hundok": null
   },
   {
     "character": "紛",
@@ -6199,7 +6532,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "눈날릴 분",
     "meaningEN": "atmosphere",
-    "umdok": "ふん"
+    "umdok": "ふん",
+    "hundok": null
   },
   {
     "character": "噴",
@@ -6222,14 +6556,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "무덤 분",
     "meaningEN": "tomb",
-    "umdok": "ふん"
+    "umdok": "ふん",
+    "hundok": null
   },
   {
     "character": "不",
     "grade": "4",
     "meaningKR": "아니 불/ 아니 부",
     "meaningEN": "non-",
-    "umdok": "ふ、ぶ"
+    "umdok": "ふ、ぶ",
+    "hundok": null
   },
   {
     "character": "仏",
@@ -6260,7 +6596,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "사다리 붕",
     "meaningEN": "shelf",
-    "umdok": "たな"
+    "umdok": "たな",
+    "hundok": null
   },
   {
     "character": "悲",
@@ -6307,7 +6644,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "아닐 비",
     "meaningEN": "negative",
-    "umdok": "ひ"
+    "umdok": "ひ",
+    "hundok": null
   },
   {
     "character": "肥",
@@ -6330,7 +6668,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "비평할 비",
     "meaningEN": "criticism",
-    "umdok": "ひ"
+    "umdok": "ひ",
+    "hundok": null
   },
   {
     "character": "秘",
@@ -6345,7 +6684,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "왕비 비",
     "meaningEN": "queen",
-    "umdok": "ひ"
+    "umdok": "ひ",
+    "hundok": null
   },
   {
     "character": "沸",
@@ -6360,7 +6700,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "분비할 비/ 스며흐를 필",
     "meaningEN": "ooze",
-    "umdok": "ひ、ひつ"
+    "umdok": "ひ、ひつ",
+    "hundok": null
   },
   {
     "character": "卑",
@@ -6407,14 +6748,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "손 빈",
     "meaningEN": "V.I.P.",
-    "umdok": "ひん"
+    "umdok": "ひん",
+    "hundok": null
   },
   {
     "character": "頻",
     "grade": "S",
     "meaningKR": "자주 빈",
     "meaningEN": "repeatedly",
-    "umdok": "ひん"
+    "umdok": "ひん",
+    "hundok": null
   },
   {
     "character": "氷",
@@ -6429,7 +6772,8 @@ export const database = [
     "grade": "1",
     "meaningKR": "넉 사",
     "meaningEN": "four",
-    "umdok": "し、よ、よつ、よん"
+    "umdok": "し、よ、よつ、よん",
+    "hundok": null
   },
   {
     "character": "糸",
@@ -6508,14 +6852,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "선비 사",
     "meaningEN": "gentleman",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "史",
     "grade": "5",
     "meaningKR": "사기 사",
     "meaningEN": "history",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "司",
@@ -6546,21 +6892,24 @@ export const database = [
     "grade": "5",
     "meaningKR": "집 사",
     "meaningEN": "cottage",
-    "umdok": "しゃ"
+    "umdok": "しゃ",
+    "hundok": null
   },
   {
     "character": "査",
     "grade": "5",
     "meaningKR": "조사할 사",
     "meaningEN": "investigate",
-    "umdok": "さ"
+    "umdok": "さ",
+    "hundok": null
   },
   {
     "character": "師",
     "grade": "5",
     "meaningKR": "스승 사",
     "meaningEN": "expert",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "飼",
@@ -6615,7 +6964,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "말 사",
     "meaningEN": "poetry",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "沙",
@@ -6638,13 +6988,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "간사할 사",
     "meaningEN": "wicked",
-    "umdok": "じゃ"
+    "umdok": "じゃ",
+    "hundok": null
   },
   {
     "character": "卸",
     "grade": "S",
     "meaningKR": "풀 사",
     "meaningEN": "wholesale",
+    "umdok": null,
     "hundok": "おろす、おろし"
   },
   {
@@ -6676,14 +7028,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "용서할 사",
     "meaningEN": "pardon",
-    "umdok": "しゃ"
+    "umdok": "しゃ",
+    "hundok": null
   },
   {
     "character": "詐",
     "grade": "S",
     "meaningKR": "속일 사",
     "meaningEN": "lie",
-    "umdok": "さ"
+    "umdok": "さ",
+    "hundok": null
   },
   {
     "character": "嗣",
@@ -6722,7 +7076,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "셈 산",
     "meaningEN": "calculate",
-    "umdok": "さん"
+    "umdok": "さん",
+    "hundok": null
   },
   {
     "character": "産",
@@ -6785,6 +7140,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "삼나무 삼",
     "meaningEN": "cedar",
+    "umdok": null,
     "hundok": "すぎ"
   },
   {
@@ -6840,6 +7196,7 @@ export const database = [
     "grade": "3",
     "meaningKR": "상자 상",
     "meaningEN": "box",
+    "umdok": null,
     "hundok": "はこ"
   },
   {
@@ -6847,7 +7204,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "코끼리 상",
     "meaningEN": "elephant",
-    "umdok": "しょう、ぞう"
+    "umdok": "しょう、ぞう",
+    "hundok": null
   },
   {
     "character": "賞",
@@ -6862,7 +7220,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "형상 상/ 문서 장",
     "meaningEN": "form",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "常",
@@ -6877,7 +7236,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "모양 상",
     "meaningEN": "statue",
-    "umdok": "ぞう"
+    "umdok": "ぞう",
+    "hundok": null
   },
   {
     "character": "傷",
@@ -6900,14 +7260,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "오히려 상",
     "meaningEN": "esteem",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "祥",
     "grade": "S",
     "meaningKR": "상서로울 상",
     "meaningEN": "auspicious",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "桑",
@@ -6962,7 +7324,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "옥새 새",
     "meaningEN": "emperor's seal",
-    "umdok": "じ"
+    "umdok": "じ",
+    "hundok": null
   },
   {
     "character": "色",
@@ -6977,7 +7340,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "찾을 색/ 동아줄 삭",
     "meaningEN": "cord",
-    "umdok": "さく"
+    "umdok": "さく",
+    "hundok": null
   },
   {
     "character": "塞",
@@ -7000,7 +7364,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "희생 생",
     "meaningEN": "animal sacrifice",
-    "umdok": "せい"
+    "umdok": "せい",
+    "hundok": null
   },
   {
     "character": "西",
@@ -7031,14 +7396,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "차례 서",
     "meaningEN": "preface",
-    "umdok": "じょ"
+    "umdok": "じょ",
+    "hundok": null
   },
   {
     "character": "署",
     "grade": "6",
     "meaningKR": "마을 서",
     "meaningEN": "government office",
-    "umdok": "しょ"
+    "umdok": "しょ",
+    "hundok": null
   },
   {
     "character": "叙",
@@ -7069,7 +7436,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "여러 서",
     "meaningEN": "commoner",
-    "umdok": "しょ"
+    "umdok": "しょ",
+    "hundok": null
   },
   {
     "character": "婿",
@@ -7124,21 +7492,24 @@ export const database = [
     "grade": "4",
     "meaningKR": "자리 석",
     "meaningEN": "seat",
-    "umdok": "せき"
+    "umdok": "せき",
+    "hundok": null
   },
   {
     "character": "析",
     "grade": "S",
     "meaningKR": "쪼갤 석",
     "meaningEN": "chop",
-    "umdok": "せき"
+    "umdok": "せき",
+    "hundok": null
   },
   {
     "character": "釈",
     "grade": "S",
     "meaningKR": "풀 석",
     "meaningEN": "explanation",
-    "umdok": "しゃく"
+    "umdok": "しゃく",
+    "hundok": null
   },
   {
     "character": "惜",
@@ -7153,6 +7524,7 @@ export const database = [
     "grade": "4",
     "meaningKR": "개펄 석",
     "meaningEN": "lagoon",
+    "umdok": null,
     "hundok": "かた"
   },
   {
@@ -7176,7 +7548,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "줄 선",
     "meaningEN": "line",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "選",
@@ -7191,7 +7564,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "베풀 선",
     "meaningEN": "proclaim",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "善",
@@ -7206,7 +7580,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "신선 선",
     "meaningEN": "hermit",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "扇",
@@ -7221,7 +7596,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "돌 선",
     "meaningEN": "rotation",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "羨",
@@ -7236,21 +7612,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "샘 선",
     "meaningEN": "gland",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "禅",
     "grade": "S",
     "meaningKR": "선 선",
     "meaningEN": "Zen",
-    "umdok": "ぜん"
+    "umdok": "ぜん",
+    "hundok": null
   },
   {
     "character": "膳",
     "grade": "S",
     "meaningKR": "반찬 선",
     "meaningEN": "tray",
-    "umdok": "ぜん"
+    "umdok": "ぜん",
+    "hundok": null
   },
   {
     "character": "鮮",
@@ -7305,21 +7684,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "가늘 섬",
     "meaningEN": "slender",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "渉",
     "grade": "S",
     "meaningKR": "건널 섭",
     "meaningEN": "ford",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "摂",
     "grade": "S",
     "meaningKR": "다스릴/ 잡을 섭",
     "meaningEN": "vicarious",
-    "umdok": "せつ"
+    "umdok": "せつ",
+    "hundok": null
   },
   {
     "character": "星",
@@ -7358,7 +7740,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "성품 성",
     "meaningEN": "gender",
-    "umdok": "せい、しょう"
+    "umdok": "せい、しょう",
+    "hundok": null
   },
   {
     "character": "城",
@@ -7389,14 +7772,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "성인 성",
     "meaningEN": "holy",
-    "umdok": "せい"
+    "umdok": "せい",
+    "hundok": null
   },
   {
     "character": "姓",
     "grade": "S",
     "meaningKR": "성씨 성",
     "meaningEN": "surname",
-    "umdok": "せい、しょう"
+    "umdok": "せい、しょう",
+    "hundok": null
   },
   {
     "character": "醒",
@@ -7427,7 +7812,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "세금 세",
     "meaningEN": "tax",
-    "umdok": "ぜい"
+    "umdok": "ぜい",
+    "hundok": null
   },
   {
     "character": "勢",
@@ -7450,7 +7836,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "해 세",
     "meaningEN": "year-end",
-    "umdok": "さい、せい"
+    "umdok": "さい、せい",
+    "hundok": null
   },
   {
     "character": "小",
@@ -7481,7 +7868,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "밝을 소",
     "meaningEN": "shining",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "消",
@@ -7520,7 +7908,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "본디/ 흴 소",
     "meaningEN": "elementary",
-    "umdok": "す、そ"
+    "umdok": "す、そ",
+    "hundok": null
   },
   {
     "character": "召",
@@ -7543,6 +7932,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "꽃필 소",
     "meaningEN": "blossom",
+    "umdok": null,
     "hundok": "さく"
   },
   {
@@ -7558,7 +7948,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "이을 소",
     "meaningEN": "introduce",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "掃",
@@ -7589,7 +7980,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "흙 빚을 소",
     "meaningEN": "model",
-    "umdok": "そ"
+    "umdok": "そ",
+    "hundok": null
   },
   {
     "character": "遡",
@@ -7636,14 +8028,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "무리 속",
     "meaningEN": "belong",
-    "umdok": "ぞく"
+    "umdok": "ぞく",
+    "hundok": null
   },
   {
     "character": "俗",
     "grade": "S",
     "meaningKR": "풍속 속",
     "meaningEN": "vulgar",
-    "umdok": "ぞく"
+    "umdok": "ぞく",
+    "hundok": null
   },
   {
     "character": "孫",
@@ -7690,7 +8084,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "송사할 송",
     "meaningEN": "sue",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "刷",
@@ -7793,7 +8188,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "보낼 수",
     "meaningEN": "transport",
-    "umdok": "ゆ"
+    "umdok": "ゆ",
+    "hundok": null
   },
   {
     "character": "収",
@@ -7816,14 +8212,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "나무 수",
     "meaningEN": "trees",
-    "umdok": "じゅ"
+    "umdok": "じゅ",
+    "hundok": null
   },
   {
     "character": "囚",
     "grade": "S",
     "meaningKR": "가둘 수",
     "meaningEN": "captured",
-    "umdok": "しゅう"
+    "umdok": "しゅう",
+    "hundok": null
   },
   {
     "character": "秀",
@@ -7854,7 +8252,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "장수 수",
     "meaningEN": "commander",
-    "umdok": "すい"
+    "umdok": "すい",
+    "hundok": null
   },
   {
     "character": "捜",
@@ -7893,7 +8292,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "부끄러울 수",
     "meaningEN": "feel ashamed",
-    "umdok": "しゅう"
+    "umdok": "しゅう",
+    "hundok": null
   },
   {
     "character": "遂",
@@ -7924,21 +8324,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "따를 수",
     "meaningEN": "follow",
-    "umdok": "ずい"
+    "umdok": "ずい",
+    "hundok": null
   },
   {
     "character": "睡",
     "grade": "S",
     "meaningKR": "졸음 수",
     "meaningEN": "drowsy",
-    "umdok": "すい"
+    "umdok": "すい",
+    "hundok": null
   },
   {
     "character": "酬",
     "grade": "S",
     "meaningKR": "갚을 수",
     "meaningEN": "repay",
-    "umdok": "しゅう"
+    "umdok": "しゅう",
+    "hundok": null
   },
   {
     "character": "愁",
@@ -7953,13 +8356,15 @@ export const database = [
     "grade": "S",
     "meaningKR": "쓰일/ 쓸 수",
     "meaningEN": "demand",
-    "umdok": "じゅ"
+    "umdok": "じゅ",
+    "hundok": null
   },
   {
     "character": "誰",
     "grade": "S",
     "meaningKR": "누구 수",
     "meaningEN": "who (question word)",
+    "umdok": null,
     "hundok": "だれ"
   },
   {
@@ -7983,7 +8388,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "뼛골 수",
     "meaningEN": "marrow",
-    "umdok": "ずい"
+    "umdok": "ずい",
+    "hundok": null
   },
   {
     "character": "宿",
@@ -8006,49 +8412,56 @@ export const database = [
     "grade": "S",
     "meaningKR": "아저씨 숙",
     "meaningEN": "uncle",
-    "umdok": "しゅく"
+    "umdok": "しゅく",
+    "hundok": null
   },
   {
     "character": "淑",
     "grade": "S",
     "meaningKR": "맑을 숙",
     "meaningEN": "graceful",
-    "umdok": "しゅく"
+    "umdok": "しゅく",
+    "hundok": null
   },
   {
     "character": "粛",
     "grade": "S",
     "meaningKR": "엄숙할 숙",
     "meaningEN": "solemn",
-    "umdok": "しゅく"
+    "umdok": "しゅく",
+    "hundok": null
   },
   {
     "character": "塾",
     "grade": "S",
     "meaningKR": "글방 숙",
     "meaningEN": "cram school",
-    "umdok": "じゅく"
+    "umdok": "じゅく",
+    "hundok": null
   },
   {
     "character": "順",
     "grade": "4",
     "meaningKR": "순할 순",
     "meaningEN": "obey",
-    "umdok": "じゅん"
+    "umdok": "じゅん",
+    "hundok": null
   },
   {
     "character": "純",
     "grade": "6",
     "meaningKR": "순수할 순",
     "meaningEN": "genuine",
-    "umdok": "じゅん"
+    "umdok": "じゅん",
+    "hundok": null
   },
   {
     "character": "旬",
     "grade": "S",
     "meaningKR": "열흘 순",
     "meaningEN": "10-day period (of the month)",
-    "umdok": "じゅん、しゅん"
+    "umdok": "じゅん、しゅん",
+    "hundok": null
   },
   {
     "character": "巡",
@@ -8079,14 +8492,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "따라죽을 순",
     "meaningEN": "martyrdom",
-    "umdok": "じゅん"
+    "umdok": "じゅん",
+    "hundok": null
   },
   {
     "character": "循",
     "grade": "S",
     "meaningKR": "돌 순",
     "meaningEN": "sequential",
-    "umdok": "じゅん"
+    "umdok": "じゅん",
+    "hundok": null
   },
   {
     "character": "瞬",
@@ -8109,14 +8524,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "재주 술",
     "meaningEN": "art",
-    "umdok": "じゅつ"
+    "umdok": "じゅつ",
+    "hundok": null
   },
   {
     "character": "崇",
     "grade": "S",
     "meaningKR": "높을 숭",
     "meaningEN": "adore",
-    "umdok": "すう"
+    "umdok": "すう",
+    "hundok": null
   },
   {
     "character": "膝",
@@ -8203,7 +8620,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "중 승",
     "meaningEN": "Buddhist priest",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "縄",
@@ -8250,7 +8668,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "시 시",
     "meaningEN": "poem",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "試",
@@ -8273,7 +8692,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "볼 시",
     "meaningEN": "look at",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "侍",
@@ -8304,7 +8724,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "옳을 시",
     "meaningEN": "just so",
-    "umdok": "ぜ"
+    "umdok": "ぜ",
+    "hundok": null
   },
   {
     "character": "食",
@@ -8319,7 +8740,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "법 식",
     "meaningEN": "style",
-    "umdok": "しき"
+    "umdok": "しき",
+    "hundok": null
   },
   {
     "character": "息",
@@ -8342,7 +8764,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "알 식",
     "meaningEN": "discriminating",
-    "umdok": "しき"
+    "umdok": "しき",
+    "hundok": null
   },
   {
     "character": "拭",
@@ -8405,21 +8828,24 @@ export const database = [
     "grade": "4",
     "meaningKR": "신하 신",
     "meaningEN": "retainer",
-    "umdok": "しん、じん"
+    "umdok": "しん、じん",
+    "hundok": null
   },
   {
     "character": "信",
     "grade": "4",
     "meaningKR": "믿을 신",
     "meaningEN": "trust",
-    "umdok": "しん"
+    "umdok": "しん",
+    "hundok": null
   },
   {
     "character": "迅",
     "grade": "S",
     "meaningKR": "빠를 신",
     "meaningEN": "swift",
-    "umdok": "じん"
+    "umdok": "じん",
+    "hundok": null
   },
   {
     "character": "伸",
@@ -8442,14 +8868,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "아이 밸 신",
     "meaningEN": "with child",
-    "umdok": "しん"
+    "umdok": "しん",
+    "hundok": null
   },
   {
     "character": "紳",
     "grade": "S",
     "meaningKR": "신사 신",
     "meaningEN": "sire",
-    "umdok": "しん"
+    "umdok": "しん",
+    "hundok": null
   },
   {
     "character": "慎",
@@ -8464,7 +8892,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "콩팥 신",
     "meaningEN": "kidney",
-    "umdok": "じん"
+    "umdok": "じん",
+    "hundok": null
   },
   {
     "character": "薪",
@@ -8519,7 +8948,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "등심초 심",
     "meaningEN": "core",
-    "umdok": "しん"
+    "umdok": "しん",
+    "hundok": null
   },
   {
     "character": "甚",
@@ -8542,7 +8972,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "살필 심",
     "meaningEN": "examine",
-    "umdok": "しん"
+    "umdok": "しん",
+    "hundok": null
   },
   {
     "character": "十",
@@ -8573,7 +9004,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "아이 아",
     "meaningEN": "child",
-    "umdok": "じ、に"
+    "umdok": "じ、に",
+    "hundok": null
   },
   {
     "character": "芽",
@@ -8604,21 +9036,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "버금 아",
     "meaningEN": "sub-, Asia",
-    "umdok": "あが"
+    "umdok": "あが",
+    "hundok": null
   },
   {
     "character": "雅",
     "grade": "S",
     "meaningKR": "맑을 아",
     "meaningEN": "gracious",
-    "umdok": "が"
+    "umdok": "が",
+    "hundok": null
   },
   {
     "character": "餓",
     "grade": "S",
     "meaningKR": "주릴 아",
     "meaningEN": "starve",
-    "umdok": "が"
+    "umdok": "が",
+    "hundok": null
   },
   {
     "character": "悪",
@@ -8681,7 +9116,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "책상 안",
     "meaningEN": "plan",
-    "umdok": "あん"
+    "umdok": "あん",
+    "hundok": null
   },
   {
     "character": "眼",
@@ -8696,7 +9132,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "뵐 알",
     "meaningEN": "audience",
-    "umdok": "えつ"
+    "umdok": "えつ",
+    "hundok": null
   },
   {
     "character": "岩",
@@ -8719,6 +9156,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "나 암",
     "meaningEN": "I, we, myself",
+    "umdok": null,
     "hundok": "おれ"
   },
   {
@@ -8726,6 +9164,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "숨을 암",
     "meaningEN": "darkness",
+    "umdok": null,
     "hundok": "やみ"
   },
   {
@@ -8733,7 +9172,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "누를 압",
     "meaningEN": "pressure",
-    "umdok": "あつ"
+    "umdok": "あつ",
+    "hundok": null
   },
   {
     "character": "押",
@@ -8748,7 +9188,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "가운데 앙",
     "meaningEN": "center",
-    "umdok": "おう"
+    "umdok": "おう",
+    "hundok": null
   },
   {
     "character": "仰",
@@ -8763,7 +9204,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "사랑 애",
     "meaningEN": "love",
-    "umdok": "あい"
+    "umdok": "あい",
+    "hundok": null
   },
   {
     "character": "哀",
@@ -8778,14 +9220,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "밀칠 애",
     "meaningEN": "push open",
-    "umdok": "あい"
+    "umdok": "あい",
+    "hundok": null
   },
   {
     "character": "涯",
     "grade": "S",
     "meaningKR": "물가 애",
     "meaningEN": "horizon",
-    "umdok": "がい"
+    "umdok": "がい",
+    "hundok": null
   },
   {
     "character": "崖",
@@ -8800,14 +9244,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "희미할 애",
     "meaningEN": "not clear",
-    "umdok": "あい"
+    "umdok": "あい",
+    "hundok": null
   },
   {
     "character": "液",
     "grade": "5",
     "meaningKR": "진 액",
     "meaningEN": "fluid",
-    "umdok": "えき"
+    "umdok": "えき",
+    "hundok": null
   },
   {
     "character": "額",
@@ -8822,7 +9268,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "액 액",
     "meaningEN": "unlucky",
-    "umdok": "やく"
+    "umdok": "やく",
+    "hundok": null
   },
   {
     "character": "桜",
@@ -8853,7 +9300,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "불릴 야",
     "meaningEN": "melting",
-    "umdok": "や"
+    "umdok": "や",
+    "hundok": null
   },
   {
     "character": "弱",
@@ -8876,7 +9324,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "맺을 약",
     "meaningEN": "promise",
-    "umdok": "やく"
+    "umdok": "やく",
+    "hundok": null
   },
   {
     "character": "若",
@@ -8907,14 +9356,16 @@ export const database = [
     "grade": "3",
     "meaningKR": "큰 바다 양",
     "meaningEN": "ocean",
-    "umdok": "よう"
+    "umdok": "よう",
+    "hundok": null
   },
   {
     "character": "陽",
     "grade": "3",
     "meaningKR": "볕 양",
     "meaningEN": "sunshine",
-    "umdok": "よう"
+    "umdok": "よう",
+    "hundok": null
   },
   {
     "character": "様",
@@ -8945,21 +9396,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "헐 양",
     "meaningEN": "boil (medical)",
-    "umdok": "よう"
+    "umdok": "よう",
+    "hundok": null
   },
   {
     "character": "壌",
     "grade": "S",
     "meaningKR": "흙덩이 양",
     "meaningEN": "lot",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "嬢",
     "grade": "S",
     "meaningKR": "아가씨 양",
     "meaningEN": "lass",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "譲",
@@ -8998,7 +9452,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "고기 잡을 어",
     "meaningEN": "fishing",
-    "umdok": "ぎょ、きょう"
+    "umdok": "ぎょ、きょう",
+    "hundok": null
   },
   {
     "character": "御",
@@ -9013,7 +9468,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "억 억",
     "meaningEN": "hundred million",
-    "umdok": "おく"
+    "umdok": "おく",
+    "hundok": null
   },
   {
     "character": "抑",
@@ -9028,14 +9484,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "생각할 억",
     "meaningEN": "recollection",
-    "umdok": "おく"
+    "umdok": "おく",
+    "hundok": null
   },
   {
     "character": "臆",
     "grade": "S",
     "meaningKR": "가슴 억",
     "meaningEN": "timidity",
-    "umdok": "おく"
+    "umdok": "おく",
+    "hundok": null
   },
   {
     "character": "言",
@@ -9082,21 +9540,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "같을 여",
     "meaningEN": "likeness",
-    "umdok": "じょ、にょ"
+    "umdok": "じょ、にょ",
+    "hundok": null
   },
   {
     "character": "役",
     "grade": "3",
     "meaningKR": "부릴 역",
     "meaningEN": "service",
-    "umdok": "やく、えき"
+    "umdok": "やく、えき",
+    "hundok": null
   },
   {
     "character": "駅",
     "grade": "3",
     "meaningKR": "역 역",
     "meaningEN": "station",
-    "umdok": "えき"
+    "umdok": "えき",
+    "hundok": null
   },
   {
     "character": "易",
@@ -9119,7 +9580,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "지경 역",
     "meaningEN": "range",
-    "umdok": "いき"
+    "umdok": "いき",
+    "hundok": null
   },
   {
     "character": "訳",
@@ -9134,7 +9596,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "전염병 역",
     "meaningEN": "epidemic",
-    "umdok": "えき、やく"
+    "umdok": "えき、やく",
+    "hundok": null
   },
   {
     "character": "研",
@@ -9149,14 +9612,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "그럴 연",
     "meaningEN": "so",
-    "umdok": "ぜん、ねん"
+    "umdok": "ぜん、ねん",
+    "hundok": null
   },
   {
     "character": "演",
     "grade": "5",
     "meaningKR": "펼 연",
     "meaningEN": "perform",
-    "umdok": "えん"
+    "umdok": "えん",
+    "hundok": null
   },
   {
     "character": "燃",
@@ -9187,7 +9652,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "잔치 연",
     "meaningEN": "banquet",
-    "umdok": "えん"
+    "umdok": "えん",
+    "hundok": null
   },
   {
     "character": "軟",
@@ -9234,14 +9700,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "기쁠 열",
     "meaningEN": "ecstasy",
-    "umdok": "えつ"
+    "umdok": "えつ",
+    "hundok": null
   },
   {
     "character": "閲",
     "grade": "S",
     "meaningKR": "볼 열",
     "meaningEN": "review",
-    "umdok": "えつ"
+    "umdok": "えつ",
+    "hundok": null
   },
   {
     "character": "塩",
@@ -9304,7 +9772,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "꽃부리 영",
     "meaningEN": "England",
-    "umdok": "えい"
+    "umdok": "えい",
+    "hundok": null
   },
   {
     "character": "栄",
@@ -9375,7 +9844,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "재주 예",
     "meaningEN": "art",
-    "umdok": "げい"
+    "umdok": "げい",
+    "hundok": null
   },
   {
     "character": "預",
@@ -9398,6 +9868,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "벨 예",
     "meaningEN": "reap",
+    "umdok": null,
     "hundok": "かる"
   },
   {
@@ -9429,7 +9900,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "낮 오",
     "meaningEN": "noon",
-    "umdok": "ご"
+    "umdok": "ご",
+    "hundok": null
   },
   {
     "character": "誤",
@@ -9452,14 +9924,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "성씨 오",
     "meaningEN": "give",
-    "umdok": "ご"
+    "umdok": "ご",
+    "hundok": null
   },
   {
     "character": "娯",
     "grade": "S",
     "meaningKR": "즐길 오",
     "meaningEN": "recreation",
-    "umdok": "ご"
+    "umdok": "ご",
+    "hundok": null
   },
   {
     "character": "悟",
@@ -9482,7 +9956,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "거만할 오",
     "meaningEN": "be proud",
-    "umdok": "ごう"
+    "umdok": "ごう",
+    "hundok": null
   },
   {
     "character": "玉",
@@ -9505,14 +9980,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "물 댈 옥",
     "meaningEN": "fertility",
-    "umdok": "よく"
+    "umdok": "よく",
+    "hundok": null
   },
   {
     "character": "獄",
     "grade": "S",
     "meaningKR": "감옥 옥",
     "meaningEN": "prison",
-    "umdok": "ごく"
+    "umdok": "ごく",
+    "hundok": null
   },
   {
     "character": "温",
@@ -9543,7 +10020,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "낄 옹",
     "meaningEN": "embrace",
-    "umdok": "よう"
+    "umdok": "よう",
+    "hundok": null
   },
   {
     "character": "瓦",
@@ -9566,13 +10044,15 @@ export const database = [
     "grade": "4",
     "meaningKR": "완전할 완",
     "meaningEN": "perfect",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "宛",
     "grade": "S",
     "meaningKR": "완연할 완",
     "meaningEN": "allocate",
+    "umdok": null,
     "hundok": "あてる"
   },
   {
@@ -9580,7 +10060,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "희롱할 완",
     "meaningEN": "trifle with",
-    "umdok": "がん"
+    "umdok": "がん",
+    "hundok": null
   },
   {
     "character": "腕",
@@ -9595,7 +10076,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "완고할 완",
     "meaningEN": "stubborn",
-    "umdok": "がん"
+    "umdok": "がん",
+    "hundok": null
   },
   {
     "character": "緩",
@@ -9610,21 +10092,24 @@ export const database = [
     "grade": "1",
     "meaningKR": "임금 왕",
     "meaningEN": "king",
-    "umdok": "おう"
+    "umdok": "おう",
+    "hundok": null
   },
   {
     "character": "往",
     "grade": "5",
     "meaningKR": "갈 왕",
     "meaningEN": "outward journey",
-    "umdok": "おう"
+    "umdok": "おう",
+    "hundok": null
   },
   {
     "character": "旺",
     "grade": "S",
     "meaningKR": "왕성할 왕",
     "meaningEN": "flourishing",
-    "umdok": "おう"
+    "umdok": "おう",
+    "hundok": null
   },
   {
     "character": "外",
@@ -9647,7 +10132,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "빛날 요",
     "meaningEN": "day of the week",
-    "umdok": "よう"
+    "umdok": "よう",
+    "hundok": null
   },
   {
     "character": "要",
@@ -9750,21 +10236,24 @@ export const database = [
     "grade": "5",
     "meaningKR": "모양 용",
     "meaningEN": "contain",
-    "umdok": "よう"
+    "umdok": "よう",
+    "hundok": null
   },
   {
     "character": "冗",
     "grade": "S",
     "meaningKR": "쓸데없을 용",
     "meaningEN": "superfluous",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "庸",
     "grade": "S",
     "meaningKR": "떳떳할 용",
     "meaningEN": "commonplace",
-    "umdok": "よう"
+    "umdok": "よう",
+    "hundok": null
   },
   {
     "character": "湧",
@@ -9835,14 +10324,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "집 우",
     "meaningEN": "eaves",
-    "umdok": "う"
+    "umdok": "う",
+    "hundok": null
   },
   {
     "character": "郵",
     "grade": "6",
     "meaningKR": "우편 우",
     "meaningEN": "mail",
-    "umdok": "ゆう"
+    "umdok": "ゆう",
+    "hundok": null
   },
   {
     "character": "優",
@@ -9857,6 +10348,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "또 우",
     "meaningEN": "or again",
+    "umdok": null,
     "hundok": "また"
   },
   {
@@ -9864,6 +10356,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "토란 우",
     "meaningEN": "potato",
+    "umdok": null,
     "hundok": "いも"
   },
   {
@@ -9871,14 +10364,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "짝 우",
     "meaningEN": "accidentally",
-    "umdok": "ぐう"
+    "umdok": "ぐう",
+    "hundok": null
   },
   {
     "character": "遇",
     "grade": "S",
     "meaningKR": "만날 우",
     "meaningEN": "interview",
-    "umdok": "ぐう"
+    "umdok": "ぐう",
+    "hundok": null
   },
   {
     "character": "隅",
@@ -9933,14 +10428,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "운율 운",
     "meaningEN": "rhyme",
-    "umdok": "いん"
+    "umdok": "いん",
+    "hundok": null
   },
   {
     "character": "鬱",
     "grade": "S",
     "meaningKR": "막힐 울",
     "meaningEN": "gloom",
-    "umdok": "うつ"
+    "umdok": "うつ",
+    "hundok": null
   },
   {
     "character": "雄",
@@ -9955,6 +10452,7 @@ export const database = [
     "grade": "4",
     "meaningKR": "곰 웅",
     "meaningEN": "bear",
+    "umdok": null,
     "hundok": "くま"
   },
   {
@@ -10002,14 +10500,16 @@ export const database = [
     "grade": "3",
     "meaningKR": "집 원",
     "meaningEN": "institution",
-    "umdok": "いん"
+    "umdok": "いん",
+    "hundok": null
   },
   {
     "character": "員",
     "grade": "3",
     "meaningKR": "인원 원",
     "meaningEN": "member",
-    "umdok": "いん"
+    "umdok": "いん",
+    "hundok": null
   },
   {
     "character": "願",
@@ -10040,6 +10540,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "담 원",
     "meaningEN": "hedge",
+    "umdok": null,
     "hundok": "かき"
   },
   {
@@ -10047,7 +10548,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "도울 원",
     "meaningEN": "aid",
-    "umdok": "えん"
+    "umdok": "えん",
+    "hundok": null
   },
   {
     "character": "媛",
@@ -10110,14 +10612,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "밥통 위",
     "meaningEN": "stomach",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "衛",
     "grade": "5",
     "meaningKR": "지킬 위",
     "meaningEN": "defense",
-    "umdok": "えい"
+    "umdok": "えい",
+    "hundok": null
   },
   {
     "character": "危",
@@ -10132,7 +10636,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "위엄 위",
     "meaningEN": "intimidate",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "為",
@@ -10163,7 +10668,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "벼슬 위",
     "meaningEN": "military officer",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "偉",
@@ -10194,7 +10700,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "위도 위",
     "meaningEN": "horizontal",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "由",
@@ -10249,7 +10756,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "남길 유",
     "meaningEN": "bequeath",
-    "umdok": "い、ゆい"
+    "umdok": "い、ゆい",
+    "hundok": null
   },
   {
     "character": "柔",
@@ -10264,7 +10772,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "그윽할 유",
     "meaningEN": "seclude",
-    "umdok": "ゆう"
+    "umdok": "ゆう",
+    "hundok": null
   },
   {
     "character": "唯",
@@ -10279,35 +10788,40 @@ export const database = [
     "grade": "S",
     "meaningKR": "유유자적할 유",
     "meaningEN": "permanence",
-    "umdok": "ゆう"
+    "umdok": "ゆう",
+    "hundok": null
   },
   {
     "character": "愉",
     "grade": "S",
     "meaningKR": "즐거울 유",
     "meaningEN": "pleasure",
-    "umdok": "ゆ"
+    "umdok": "ゆ",
+    "hundok": null
   },
   {
     "character": "喩",
     "grade": "S",
     "meaningKR": "비유할 유",
     "meaningEN": "metaphor",
-    "umdok": "ゆ"
+    "umdok": "ゆ",
+    "hundok": null
   },
   {
     "character": "猶",
     "grade": "S",
     "meaningKR": "오히려 유",
     "meaningEN": "furthermore",
-    "umdok": "ゆう"
+    "umdok": "ゆう",
+    "hundok": null
   },
   {
     "character": "裕",
     "grade": "S",
     "meaningKR": "넉넉할 유",
     "meaningEN": "abundant",
-    "umdok": "ゆう"
+    "umdok": "ゆう",
+    "hundok": null
   },
   {
     "character": "誘",
@@ -10322,7 +10836,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "벼리 유",
     "meaningEN": "fiber",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "諭",
@@ -10337,7 +10852,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "선비 유",
     "meaningEN": "Confucian",
-    "umdok": "じゅ"
+    "umdok": "じゅ",
+    "hundok": null
   },
   {
     "character": "癒",
@@ -10360,7 +10876,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "고기 육",
     "meaningEN": "meat",
-    "umdok": "にく"
+    "umdok": "にく",
+    "hundok": null
   },
   {
     "character": "育",
@@ -10383,21 +10900,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "녹을 융",
     "meaningEN": "dissolve",
-    "umdok": "ゆう"
+    "umdok": "ゆう",
+    "hundok": null
   },
   {
     "character": "銀",
     "grade": "3",
     "meaningKR": "은 은",
     "meaningEN": "silver",
-    "umdok": "ぎん"
+    "umdok": "ぎん",
+    "hundok": null
   },
   {
     "character": "恩",
     "grade": "6",
     "meaningKR": "은혜 은",
     "meaningEN": "grace",
-    "umdok": "おん"
+    "umdok": "おん",
+    "hundok": null
   },
   {
     "character": "隠",
@@ -10412,7 +10932,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "새 을 ",
     "meaningEN": "the latter",
-    "umdok": "おつ"
+    "umdok": "おつ",
+    "hundok": null
   },
   {
     "character": "音",
@@ -10435,7 +10956,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "읊을 음",
     "meaningEN": "versify",
-    "umdok": "ぎん"
+    "umdok": "ぎん",
+    "hundok": null
   },
   {
     "character": "陰",
@@ -10482,14 +11004,16 @@ export const database = [
     "grade": "3",
     "meaningKR": "의원 의",
     "meaningEN": "doctor",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "意",
     "grade": "3",
     "meaningKR": "뜻 의",
     "meaningEN": "idea",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "衣",
@@ -10504,14 +11028,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "의논할 의",
     "meaningEN": "deliberation",
-    "umdok": "ぎ"
+    "umdok": "ぎ",
+    "hundok": null
   },
   {
     "character": "義",
     "grade": "5",
     "meaningKR": "옳을 의",
     "meaningEN": "righteousness",
-    "umdok": "ぎ"
+    "umdok": "ぎ",
+    "hundok": null
   },
   {
     "character": "疑",
@@ -10526,35 +11052,40 @@ export const database = [
     "grade": "S",
     "meaningKR": "의지할 의",
     "meaningEN": "reliant",
-    "umdok": "い、え"
+    "umdok": "い、え",
+    "hundok": null
   },
   {
     "character": "宜",
     "grade": "S",
     "meaningKR": "마땅 의",
     "meaningEN": "best regards",
-    "umdok": "ぎ"
+    "umdok": "ぎ",
+    "hundok": null
   },
   {
     "character": "椅",
     "grade": "S",
     "meaningKR": "의자 의",
     "meaningEN": "chair",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "儀",
     "grade": "S",
     "meaningKR": "거동 의",
     "meaningEN": "ceremony",
-    "umdok": "ぎ"
+    "umdok": "ぎ",
+    "hundok": null
   },
   {
     "character": "擬",
     "grade": "S",
     "meaningKR": "비길 의",
     "meaningEN": "mimic",
-    "umdok": "ぎ"
+    "umdok": "ぎ",
+    "hundok": null
   },
   {
     "character": "二",
@@ -10577,7 +11108,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "써 이",
     "meaningEN": "by means of",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "移",
@@ -10600,7 +11132,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "두/ 갖은두 이",
     "meaningEN": "two (falsification prevention)",
-    "umdok": "に"
+    "umdok": "に",
+    "hundok": null
   },
   {
     "character": "餌",
@@ -10615,14 +11148,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "더할 익",
     "meaningEN": "benefit",
-    "umdok": "えき、やく"
+    "umdok": "えき、やく",
+    "hundok": null
   },
   {
     "character": "翌",
     "grade": "6",
     "meaningKR": "다음날 익",
     "meaningEN": "the following",
-    "umdok": "よく"
+    "umdok": "よく",
+    "hundok": null
   },
   {
     "character": "溺",
@@ -10677,7 +11212,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "어질 인",
     "meaningEN": "humanity",
-    "umdok": "じん、に"
+    "umdok": "じん、に",
+    "hundok": null
   },
   {
     "character": "認",
@@ -10708,7 +11244,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "혼인 인",
     "meaningEN": "matrimony",
-    "umdok": "いん"
+    "umdok": "いん",
+    "hundok": null
   },
   {
     "character": "咽",
@@ -10739,14 +11276,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "한/ 갖은한 일",
     "meaningEN": "one (falsification prevention)",
-    "umdok": "いち"
+    "umdok": "いち",
+    "hundok": null
   },
   {
     "character": "逸",
     "grade": "S",
     "meaningKR": "편안할 일",
     "meaningEN": "deviate",
-    "umdok": "いつ"
+    "umdok": "いつ",
+    "hundok": null
   },
   {
     "character": "任",
@@ -10761,14 +11300,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "품삯 임",
     "meaningEN": "fare",
-    "umdok": "ちん"
+    "umdok": "ちん",
+    "hundok": null
   },
   {
     "character": "妊",
     "grade": "S",
     "meaningKR": "아이밸 임",
     "meaningEN": "pregnancy",
-    "umdok": "にん"
+    "umdok": "にん",
+    "hundok": null
   },
   {
     "character": "入",
@@ -10783,7 +11324,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "남을 잉",
     "meaningEN": "surplus",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "子",
@@ -10798,7 +11340,8 @@ export const database = [
     "grade": "1",
     "meaningKR": "글자 자",
     "meaningEN": "letter",
-    "umdok": "じ"
+    "umdok": "じ",
+    "hundok": null
   },
   {
     "character": "自",
@@ -10829,7 +11372,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "재물 자",
     "meaningEN": "resources",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "姿",
@@ -10844,7 +11388,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "자석 자",
     "meaningEN": "magnet",
-    "umdok": "じ"
+    "umdok": "じ",
+    "hundok": null
   },
   {
     "character": "刺",
@@ -10859,6 +11404,7 @@ export const database = [
     "grade": "4",
     "meaningKR": "가시나무 자",
     "meaningEN": "thorn",
+    "umdok": null,
     "hundok": "いばら"
   },
   {
@@ -10882,7 +11428,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "불을 자",
     "meaningEN": "nourishing",
-    "umdok": "じ"
+    "umdok": "じ",
+    "hundok": null
   },
   {
     "character": "煮",
@@ -10929,7 +11476,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "어제 작",
     "meaningEN": "previous",
-    "umdok": "さく"
+    "umdok": "さく",
+    "hundok": null
   },
   {
     "character": "酌",
@@ -10944,7 +11492,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "벼슬 작",
     "meaningEN": "baron",
-    "umdok": "しゃく"
+    "umdok": "しゃく",
+    "hundok": null
   },
   {
     "character": "残",
@@ -10959,7 +11508,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "사다리 잔",
     "meaningEN": "scaffold",
-    "umdok": "さん"
+    "umdok": "さん",
+    "hundok": null
   },
   {
     "character": "蚕",
@@ -10982,14 +11532,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "잠깐 잠",
     "meaningEN": "temporarily",
-    "umdok": "ざん"
+    "umdok": "ざん",
+    "hundok": null
   },
   {
     "character": "雑",
     "grade": "5",
     "meaningKR": "섞일 잡",
     "meaningEN": "miscellaneous",
-    "umdok": "ざつ、ぞう"
+    "umdok": "ざつ、ぞう",
+    "hundok": null
   },
   {
     "character": "長",
@@ -11012,21 +11564,24 @@ export const database = [
     "grade": "3",
     "meaningKR": "글 장",
     "meaningEN": "chapter",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "帳",
     "grade": "3",
     "meaningKR": "장막 장",
     "meaningEN": "account book",
-    "umdok": "ちょう"
+    "umdok": "ちょう",
+    "hundok": null
   },
   {
     "character": "腸",
     "grade": "6",
     "meaningKR": "창자 장",
     "meaningEN": "intestines",
-    "umdok": "ちょう"
+    "umdok": "ちょう",
+    "hundok": null
   },
   {
     "character": "張",
@@ -11041,7 +11596,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "장수 장",
     "meaningEN": "leader",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "装",
@@ -11072,7 +11628,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "오장 장",
     "meaningEN": "entrails",
-    "umdok": "ぞう"
+    "umdok": "ぞう",
+    "hundok": null
   },
   {
     "character": "丈",
@@ -11087,35 +11644,40 @@ export const database = [
     "grade": "S",
     "meaningKR": "장인 장",
     "meaningEN": "artisan",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "壮",
     "grade": "S",
     "meaningKR": "장할 장",
     "meaningEN": "robust",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "荘",
     "grade": "S",
     "meaningKR": "씩씩할/ 별장 장",
     "meaningEN": "villa",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "掌",
     "grade": "S",
     "meaningKR": "손바닥 장",
     "meaningEN": "manipulate",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "粧",
     "grade": "S",
     "meaningKR": "단장할 장",
     "meaningEN": "cosmetics",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "葬",
@@ -11130,21 +11692,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "장려할 장",
     "meaningEN": "exhort",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "才",
     "grade": "2",
     "meaningKR": "재주 재",
     "meaningEN": "genius",
-    "umdok": "さい"
+    "umdok": "さい",
+    "hundok": null
   },
   {
     "character": "材",
     "grade": "4",
     "meaningKR": "재목 재",
     "meaningEN": "lumber",
-    "umdok": "ざい"
+    "umdok": "ざい",
+    "hundok": null
   },
   {
     "character": "再",
@@ -11175,7 +11740,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "재물 재",
     "meaningEN": "wealth",
-    "umdok": "ざい、さい"
+    "umdok": "ざい、さい",
+    "hundok": null
   },
   {
     "character": "裁",
@@ -11190,21 +11756,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "재상 재",
     "meaningEN": "superintend",
-    "umdok": "さい"
+    "umdok": "さい",
+    "hundok": null
   },
   {
     "character": "栽",
     "grade": "S",
     "meaningKR": "심을 재",
     "meaningEN": "plantation",
-    "umdok": "さい"
+    "umdok": "さい",
+    "hundok": null
   },
   {
     "character": "斎",
     "grade": "S",
     "meaningKR": "재계할/ 집 재",
     "meaningEN": "purification",
-    "umdok": "さい"
+    "umdok": "さい",
+    "hundok": null
   },
   {
     "character": "載",
@@ -11243,7 +11812,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "쌓을 저",
     "meaningEN": "savings",
-    "umdok": "ちょ"
+    "umdok": "ちょ",
+    "hundok": null
   },
   {
     "character": "著",
@@ -11266,20 +11836,23 @@ export const database = [
     "grade": "S",
     "meaningKR": "막을 저",
     "meaningEN": "resist",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "邸",
     "grade": "S",
     "meaningKR": "집 저",
     "meaningEN": "residence",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "箸",
     "grade": "S",
     "meaningKR": "젓가락 저",
     "meaningEN": "chopsticks",
+    "umdok": null,
     "hundok": "はし"
   },
   {
@@ -11335,7 +11908,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "길쌈할 적",
     "meaningEN": "exploits",
-    "umdok": "せき"
+    "umdok": "せき",
+    "hundok": null
   },
   {
     "character": "寂",
@@ -11350,7 +11924,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "도둑 적",
     "meaningEN": "burglar",
-    "umdok": "ぞく"
+    "umdok": "ぞく",
+    "hundok": null
   },
   {
     "character": "跡",
@@ -11373,7 +11948,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "정실 적",
     "meaningEN": "legitimate wife",
-    "umdok": "ちゃく"
+    "umdok": "ちゃく",
+    "hundok": null
   },
   {
     "character": "摘",
@@ -11388,7 +11964,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "문서 적",
     "meaningEN": "enroll",
-    "umdok": "せき"
+    "umdok": "せき",
+    "hundok": null
   },
   {
     "character": "田",
@@ -11411,7 +11988,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "번개 전",
     "meaningEN": "electricity",
-    "umdok": "でん"
+    "umdok": "でん",
+    "hundok": null
   },
   {
     "character": "全",
@@ -11442,7 +12020,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "법 전",
     "meaningEN": "code",
-    "umdok": "てん"
+    "umdok": "てん",
+    "hundok": null
   },
   {
     "character": "戦",
@@ -11473,14 +12052,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "펼 전",
     "meaningEN": "expand",
-    "umdok": "てん"
+    "umdok": "てん",
+    "hundok": null
   },
   {
     "character": "栓",
     "grade": "S",
     "meaningKR": "마개 전",
     "meaningEN": "plug",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "殿",
@@ -11495,7 +12076,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "메울 전/ 누를 진",
     "meaningEN": "fill in",
-    "umdok": "てん"
+    "umdok": "てん",
+    "hundok": null
   },
   {
     "character": "煎",
@@ -11510,14 +12092,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "설명할 전",
     "meaningEN": "discussion",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "箋",
     "grade": "S",
     "meaningKR": "찌지 전",
     "meaningEN": "paper",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "切",
@@ -11556,7 +12140,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "훔칠 절",
     "meaningEN": "stealth",
-    "umdok": "せつ"
+    "umdok": "せつ",
+    "hundok": null
   },
   {
     "character": "店",
@@ -11571,7 +12156,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "점 점",
     "meaningEN": "point",
-    "umdok": "てん"
+    "umdok": "てん",
+    "hundok": null
   },
   {
     "character": "占",
@@ -11594,7 +12180,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "점점 점",
     "meaningEN": "steadily",
-    "umdok": "ぜん"
+    "umdok": "ぜん",
+    "hundok": null
   },
   {
     "character": "接",
@@ -11625,7 +12212,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "고무래/ 장정 정",
     "meaningEN": "ward",
-    "umdok": "ちょう、てい"
+    "umdok": "ちょう、てい",
+    "hundok": null
   },
   {
     "character": "定",
@@ -11656,7 +12244,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "머무를 정",
     "meaningEN": "halt",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "静",
@@ -11695,7 +12284,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "정할 정",
     "meaningEN": "refined",
-    "umdok": "せい、しょう"
+    "umdok": "せい、しょう",
+    "hundok": null
   },
   {
     "character": "頂",
@@ -11726,77 +12316,88 @@ export const database = [
     "grade": "S",
     "meaningKR": "드릴 정",
     "meaningEN": "display",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "廷",
     "grade": "S",
     "meaningKR": "조정 정",
     "meaningEN": "courts",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "征",
     "grade": "S",
     "meaningKR": "칠 정",
     "meaningEN": "subjugate",
-    "umdok": "せい"
+    "umdok": "せい",
+    "hundok": null
   },
   {
     "character": "亭",
     "grade": "S",
     "meaningKR": "정자 정",
     "meaningEN": "pavilion",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "貞",
     "grade": "S",
     "meaningKR": "곧을 정",
     "meaningEN": "upright",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "訂",
     "grade": "S",
     "meaningKR": "바로잡을 정",
     "meaningEN": "revise",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "浄",
     "grade": "S",
     "meaningKR": "깨끗할 정",
     "meaningEN": "clean",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "偵",
     "grade": "S",
     "meaningKR": "염탐할 정",
     "meaningEN": "spy",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "晶",
     "grade": "S",
     "meaningKR": "맑을 정",
     "meaningEN": "sparkle",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "艇",
     "grade": "S",
     "meaningKR": "배 정",
     "meaningEN": "rowboat",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "錠",
     "grade": "S",
     "meaningKR": "덩이 정",
     "meaningEN": "lock",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "弟",
@@ -11811,7 +12412,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "차례 제",
     "meaningEN": "ordinal number prefix",
-    "umdok": "だい"
+    "umdok": "だい",
+    "hundok": null
   },
   {
     "character": "祭",
@@ -11826,14 +12428,16 @@ export const database = [
     "grade": "3",
     "meaningKR": "제목 제",
     "meaningEN": "topic",
-    "umdok": "だい"
+    "umdok": "だい",
+    "hundok": null
   },
   {
     "character": "制",
     "grade": "5",
     "meaningKR": "절제할 제",
     "meaningEN": "control",
-    "umdok": "せい"
+    "umdok": "せい",
+    "hundok": null
   },
   {
     "character": "提",
@@ -11848,7 +12452,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "지을 제",
     "meaningEN": "manufacture",
-    "umdok": "せい"
+    "umdok": "せい",
+    "hundok": null
   },
   {
     "character": "際",
@@ -11879,28 +12484,32 @@ export const database = [
     "grade": "6",
     "meaningKR": "모두 제",
     "meaningEN": "various",
-    "umdok": "しょ"
+    "umdok": "しょ",
+    "hundok": null
   },
   {
     "character": "斉",
     "grade": "S",
     "meaningKR": "가지런할 제",
     "meaningEN": "adjusted",
-    "umdok": "せい"
+    "umdok": "せい",
+    "hundok": null
   },
   {
     "character": "帝",
     "grade": "S",
     "meaningKR": "임금 제",
     "meaningEN": "sovereign",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "剤",
     "grade": "S",
     "meaningKR": "약제 제",
     "meaningEN": "dose",
-    "umdok": "ざい"
+    "umdok": "ざい",
+    "hundok": null
   },
   {
     "character": "堤",
@@ -11979,14 +12588,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "가지 조",
     "meaningEN": "clause",
-    "umdok": "じょう"
+    "umdok": "じょう",
+    "hundok": null
   },
   {
     "character": "祖",
     "grade": "5",
     "meaningKR": "할아버지 조",
     "meaningEN": "ancestor",
-    "umdok": "そ"
+    "umdok": "そ",
+    "hundok": null
   },
   {
     "character": "造",
@@ -12017,6 +12628,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "손톱 조",
     "meaningEN": "claw",
+    "umdok": null,
     "hundok": "つめ、つま"
   },
   {
@@ -12040,21 +12652,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "조세 조",
     "meaningEN": "tariff",
-    "umdok": "そ"
+    "umdok": "そ",
+    "hundok": null
   },
   {
     "character": "措",
     "grade": "S",
     "meaningKR": "둘 조",
     "meaningEN": "set aside",
-    "umdok": "そ"
+    "umdok": "そ",
+    "hundok": null
   },
   {
     "character": "曹",
     "grade": "S",
     "meaningKR": "무리 조",
     "meaningEN": "cadet",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "粗",
@@ -12117,20 +12732,23 @@ export const database = [
     "grade": "S",
     "meaningKR": "구유 조",
     "meaningEN": "vat",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "燥",
     "grade": "S",
     "meaningKR": "마를 조",
     "meaningEN": "parch",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "繰",
     "grade": "S",
     "meaningKR": "고치 켤 조",
     "meaningEN": "winding",
+    "umdok": null,
     "hundok": "くる"
   },
   {
@@ -12154,14 +12772,16 @@ export const database = [
     "grade": "3",
     "meaningKR": "겨레 족",
     "meaningEN": "tribe",
-    "umdok": "ぞく"
+    "umdok": "ぞく",
+    "hundok": null
   },
   {
     "character": "存",
     "grade": "6",
     "meaningKR": "있을 존",
     "meaningEN": "suppose",
-    "umdok": "そん、ぞん"
+    "umdok": "そん、ぞん",
+    "hundok": null
   },
   {
     "character": "尊",
@@ -12176,7 +12796,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "마칠 졸",
     "meaningEN": "graduate",
-    "umdok": "そつ"
+    "umdok": "そつ",
+    "hundok": null
   },
   {
     "character": "拙",
@@ -12207,7 +12828,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "마루 종",
     "meaningEN": "religion",
-    "umdok": "しゅう、そう"
+    "umdok": "しゅう、そう",
+    "hundok": null
   },
   {
     "character": "従",
@@ -12238,7 +12860,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "자취 종",
     "meaningEN": "remains",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "鐘",
@@ -12269,14 +12892,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "도울 좌",
     "meaningEN": "help",
-    "umdok": "さ"
+    "umdok": "さ",
+    "hundok": null
   },
   {
     "character": "挫",
     "grade": "S",
     "meaningKR": "꺾을 좌",
     "meaningEN": "sprain",
-    "umdok": "ざ"
+    "umdok": "ざ",
+    "hundok": null
   },
   {
     "character": "罪",
@@ -12307,7 +12932,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "돌 주",
     "meaningEN": "week",
-    "umdok": "しゅう"
+    "umdok": "しゅう",
+    "hundok": null
   },
   {
     "character": "主",
@@ -12322,7 +12948,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "고을 주",
     "meaningEN": "state",
-    "umdok": "しゅう、す"
+    "umdok": "しゅう、す",
+    "hundok": null
   },
   {
     "character": "住",
@@ -12369,7 +12996,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "집 주",
     "meaningEN": "mid-air",
-    "umdok": "ちゅう"
+    "umdok": "ちゅう",
+    "hundok": null
   },
   {
     "character": "奏",
@@ -12384,6 +13012,7 @@ export const database = [
     "grade": "6",
     "meaningKR": "주식 주",
     "meaningEN": "stocks",
+    "umdok": null,
     "hundok": "かぶ"
   },
   {
@@ -12391,7 +13020,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "붉을 주",
     "meaningEN": "vermilion",
-    "umdok": "しゅ"
+    "umdok": "しゅ",
+    "hundok": null
   },
   {
     "character": "舟",
@@ -12406,6 +13036,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "팔꿈치 주",
     "meaningEN": "elbow",
+    "umdok": null,
     "hundok": "ひじ"
   },
   {
@@ -12413,28 +13044,32 @@ export const database = [
     "grade": "S",
     "meaningKR": "빌 주",
     "meaningEN": "curse",
-    "umdok": "じゅ"
+    "umdok": "じゅ",
+    "hundok": null
   },
   {
     "character": "酎",
     "grade": "S",
     "meaningKR": "진한 술 주",
     "meaningEN": "sake",
-    "umdok": "ちゅう"
+    "umdok": "ちゅう",
+    "hundok": null
   },
   {
     "character": "珠",
     "grade": "S",
     "meaningKR": "구슬 주",
     "meaningEN": "pearl",
-    "umdok": "しゅ"
+    "umdok": "しゅ",
+    "hundok": null
   },
   {
     "character": "駐",
     "grade": "S",
     "meaningKR": "머무를 주",
     "meaningEN": "stop-over",
-    "umdok": "ちゅう"
+    "umdok": "ちゅう",
+    "hundok": null
   },
   {
     "character": "鋳",
@@ -12457,28 +13092,32 @@ export const database = [
     "grade": "5",
     "meaningKR": "준비할 준",
     "meaningEN": "standard",
-    "umdok": "じゅん"
+    "umdok": "じゅん",
+    "hundok": null
   },
   {
     "character": "俊",
     "grade": "S",
     "meaningKR": "준걸 준",
     "meaningEN": "genius",
-    "umdok": "しゅん"
+    "umdok": "しゅん",
+    "hundok": null
   },
   {
     "character": "准",
     "grade": "S",
     "meaningKR": "승인할 준",
     "meaningEN": "quasi-",
-    "umdok": "じゅん"
+    "umdok": "じゅん",
+    "hundok": null
   },
   {
     "character": "遵",
     "grade": "S",
     "meaningKR": "좇을 준",
     "meaningEN": "abide by",
-    "umdok": "じゅん"
+    "umdok": "じゅん",
+    "hundok": null
   },
   {
     "character": "中",
@@ -12509,14 +13148,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "무리 중",
     "meaningEN": "masses",
-    "umdok": "しゅう、しゅ"
+    "umdok": "しゅう、しゅ",
+    "hundok": null
   },
   {
     "character": "即",
     "grade": "S",
     "meaningKR": "곧 즉",
     "meaningEN": "instant",
-    "umdok": "そく"
+    "umdok": "そく",
+    "hundok": null
   },
   {
     "character": "汁",
@@ -12531,7 +13172,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "증거 증",
     "meaningEN": "evidence",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "増",
@@ -12554,14 +13196,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "증세 증",
     "meaningEN": "symptoms",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "曽",
     "grade": "S",
     "meaningKR": "일찍 증",
     "meaningEN": "formerly",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "憎",
@@ -12592,7 +13236,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "땅 지",
     "meaningEN": "ground",
-    "umdok": "ち、じ"
+    "umdok": "ち、じ",
+    "hundok": null
   },
   {
     "character": "池",
@@ -12671,7 +13316,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "기록할 지",
     "meaningEN": "document",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "旨",
@@ -12686,6 +13332,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "잡초 지",
     "meaningEN": "turf",
+    "umdok": null,
     "hundok": "しば"
   },
   {
@@ -12693,14 +13340,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "팔다리 지",
     "meaningEN": "limb",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "祉",
     "grade": "S",
     "meaningKR": "복 지",
     "meaningEN": "welfare",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "脂",
@@ -12723,6 +13372,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "담글 지",
     "meaningEN": "pickling",
+    "umdok": null,
     "hundok": "つける、つかる"
   },
   {
@@ -12730,7 +13380,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "잡을 지",
     "meaningEN": "seriousness",
-    "umdok": "し"
+    "umdok": "し",
+    "hundok": null
   },
   {
     "character": "直",
@@ -12745,7 +13396,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "직분 직",
     "meaningEN": "employment",
-    "umdok": "しょく"
+    "umdok": "しょく",
+    "hundok": null
   },
   {
     "character": "織",
@@ -12800,7 +13452,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "진칠 진",
     "meaningEN": "camp",
-    "umdok": "じん"
+    "umdok": "じん",
+    "hundok": null
   },
   {
     "character": "振",
@@ -12815,7 +13468,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "베풀/묵을 진",
     "meaningEN": "exhibit",
-    "umdok": "ちん"
+    "umdok": "ちん",
+    "hundok": null
   },
   {
     "character": "診",
@@ -12846,7 +13500,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "바탕 질",
     "meaningEN": "quality",
-    "umdok": "しつ、しち"
+    "umdok": "しつ、しち",
+    "hundok": null
   },
   {
     "character": "叱",
@@ -12861,28 +13516,32 @@ export const database = [
     "grade": "S",
     "meaningKR": "경질할 질",
     "meaningEN": "transfer",
-    "umdok": "てつ"
+    "umdok": "てつ",
+    "hundok": null
   },
   {
     "character": "疾",
     "grade": "S",
     "meaningKR": "병 질",
     "meaningEN": "rapidly",
-    "umdok": "しつ"
+    "umdok": "しつ",
+    "hundok": null
   },
   {
     "character": "秩",
     "grade": "S",
     "meaningKR": "차례 질",
     "meaningEN": "regularity",
-    "umdok": "ちつ"
+    "umdok": "ちつ",
+    "hundok": null
   },
   {
     "character": "窒",
     "grade": "S",
     "meaningKR": "막힐 질",
     "meaningEN": "plug up",
-    "umdok": "ちつ"
+    "umdok": "ちつ",
+    "hundok": null
   },
   {
     "character": "嫉",
@@ -12897,7 +13556,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "나 짐",
     "meaningEN": "majestic plural",
-    "umdok": "ちん"
+    "umdok": "ちん",
+    "hundok": null
   },
   {
     "character": "集",
@@ -12920,7 +13580,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "부를 징",
     "meaningEN": "indications",
-    "umdok": "ちょう"
+    "umdok": "ちょう",
+    "hundok": null
   },
   {
     "character": "澄",
@@ -12951,7 +13612,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "차 차/차 다",
     "meaningEN": "tea",
-    "umdok": "ちゃ、さ"
+    "umdok": "ちゃ、さ",
+    "hundok": null
   },
   {
     "character": "次",
@@ -12982,6 +13644,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "또 차",
     "meaningEN": "moreover",
+    "umdok": null,
     "hundok": "かつ"
   },
   {
@@ -13021,14 +13684,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "어긋날 착",
     "meaningEN": "confused",
-    "umdok": "さく"
+    "umdok": "さく",
+    "hundok": null
   },
   {
     "character": "賛",
     "grade": "5",
     "meaningKR": "도울 찬",
     "meaningEN": "approve",
-    "umdok": "さん"
+    "umdok": "さん",
+    "hundok": null
   },
   {
     "character": "札",
@@ -13043,21 +13708,24 @@ export const database = [
     "grade": "4",
     "meaningKR": "살필 찰",
     "meaningEN": "guess",
-    "umdok": "さつ"
+    "umdok": "さつ",
+    "hundok": null
   },
   {
     "character": "刹",
     "grade": "S",
     "meaningKR": "절 찰",
     "meaningEN": "temple",
-    "umdok": "さつ、せつ"
+    "umdok": "さつ、せつ",
+    "hundok": null
   },
   {
     "character": "拶",
     "grade": "S",
     "meaningKR": "핍박할 찰",
     "meaningEN": "be imminent",
-    "umdok": "さつ"
+    "umdok": "さつ",
+    "hundok": null
   },
   {
     "character": "擦",
@@ -13120,14 +13788,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "비롯할 창",
     "meaningEN": "create",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "彰",
     "grade": "S",
     "meaningKR": "드러날 창",
     "meaningEN": "patent",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "菜",
@@ -13150,7 +13820,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "풍채 채",
     "meaningEN": "form",
-    "umdok": "さい"
+    "umdok": "さい",
+    "hundok": null
   },
   {
     "character": "彩",
@@ -13165,7 +13836,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "빚 채",
     "meaningEN": "bond",
-    "umdok": "さい"
+    "umdok": "さい",
+    "hundok": null
   },
   {
     "character": "責",
@@ -13180,21 +13852,24 @@ export const database = [
     "grade": "6",
     "meaningKR": "책 책",
     "meaningEN": "counter for books",
-    "umdok": "さつ、さく"
+    "umdok": "さつ、さく",
+    "hundok": null
   },
   {
     "character": "策",
     "grade": "6",
     "meaningKR": "꾀 책",
     "meaningEN": "scheme",
-    "umdok": "さく"
+    "umdok": "さく",
+    "hundok": null
   },
   {
     "character": "柵",
     "grade": "S",
     "meaningKR": "울타리 책",
     "meaningEN": "fence",
-    "umdok": "さく"
+    "umdok": "さく",
+    "hundok": null
   },
   {
     "character": "妻",
@@ -13209,7 +13884,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "곳 처",
     "meaningEN": "dispose",
-    "umdok": "しょ"
+    "umdok": "しょ",
+    "hundok": null
   },
   {
     "character": "凄",
@@ -13224,7 +13900,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "자 척",
     "meaningEN": "shaku",
-    "umdok": "しゃく"
+    "umdok": "しゃく",
+    "hundok": null
   },
   {
     "character": "斥",
@@ -13239,21 +13916,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "넓힐 척/박을 탁",
     "meaningEN": "clear (the land)",
-    "umdok": "たく"
+    "umdok": "たく",
+    "hundok": null
   },
   {
     "character": "隻",
     "grade": "S",
     "meaningKR": "외짝 척",
     "meaningEN": "vessels",
-    "umdok": "せき"
+    "umdok": "せき",
+    "hundok": null
   },
   {
     "character": "脊",
     "grade": "S",
     "meaningKR": "등마루 척",
     "meaningEN": "stature",
-    "umdok": "せき"
+    "umdok": "せき",
+    "hundok": null
   },
   {
     "character": "捗",
@@ -13268,7 +13948,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "친척 척",
     "meaningEN": "grieve",
-    "umdok": "せき"
+    "umdok": "せき",
+    "hundok": null
   },
   {
     "character": "千",
@@ -13315,14 +13996,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "밟을 천",
     "meaningEN": "tread",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "遷",
     "grade": "S",
     "meaningKR": "옮길 천",
     "meaningEN": "transition",
-    "umdok": "せん"
+    "umdok": "せん",
+    "hundok": null
   },
   {
     "character": "薦",
@@ -13337,7 +14020,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "쇠 철",
     "meaningEN": "iron",
-    "umdok": "てつ"
+    "umdok": "てつ",
+    "hundok": null
   },
   {
     "character": "凸",
@@ -13352,21 +14036,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "밝을 철",
     "meaningEN": "philosophy",
-    "umdok": "てつ"
+    "umdok": "てつ",
+    "hundok": null
   },
   {
     "character": "徹",
     "grade": "S",
     "meaningKR": "통할 철",
     "meaningEN": "penetrate",
-    "umdok": "てつ"
+    "umdok": "てつ",
+    "hundok": null
   },
   {
     "character": "撤",
     "grade": "S",
     "meaningKR": "거둘 철",
     "meaningEN": "remove",
-    "umdok": "てつ"
+    "umdok": "てつ",
+    "hundok": null
   },
   {
     "character": "添",
@@ -13421,7 +14108,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "관청 청",
     "meaningEN": "government office",
-    "umdok": "ちょう"
+    "umdok": "ちょう",
+    "hundok": null
   },
   {
     "character": "請",
@@ -13452,14 +14140,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "갈릴 체",
     "meaningEN": "relay",
-    "umdok": "てい"
+    "umdok": "てい",
+    "hundok": null
   },
   {
     "character": "逮",
     "grade": "S",
     "meaningKR": "잡을 체",
     "meaningEN": "apprehend",
-    "umdok": "たい"
+    "umdok": "たい",
+    "hundok": null
   },
   {
     "character": "替",
@@ -13506,7 +14196,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "분초 초",
     "meaningEN": "second (part of time)",
-    "umdok": "びょう"
+    "umdok": "びょう",
+    "hundok": null
   },
   {
     "character": "初",
@@ -13529,14 +14220,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "뽑을 초",
     "meaningEN": "extract",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "肖",
     "grade": "S",
     "meaningKR": "닮을/같을 초",
     "meaningEN": "resemblance",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "酢",
@@ -13559,7 +14252,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "화약 초",
     "meaningEN": "nitrate",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "超",
@@ -13574,7 +14268,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "암초 초",
     "meaningEN": "reef",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "礎",
@@ -13605,7 +14300,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "부탁할 촉",
     "meaningEN": "entrust",
-    "umdok": "しょく"
+    "umdok": "しょく",
+    "hundok": null
   },
   {
     "character": "村",
@@ -13620,20 +14316,23 @@ export const database = [
     "grade": "6",
     "meaningKR": "마디 촌",
     "meaningEN": "measurement",
-    "umdok": "すん"
+    "umdok": "すん",
+    "hundok": null
   },
   {
     "character": "総",
     "grade": "5",
     "meaningKR": "다 총",
     "meaningEN": "whole",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "塚",
     "grade": "S",
     "meaningKR": "무덤 총",
     "meaningEN": "hillock",
+    "umdok": null,
     "hundok": "つか"
   },
   {
@@ -13641,7 +14340,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "총 총",
     "meaningEN": "gun",
-    "umdok": "じゅう"
+    "umdok": "じゅう",
+    "hundok": null
   },
   {
     "character": "撮",
@@ -13696,14 +14396,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "뽑을 추",
     "meaningEN": "pluck",
-    "umdok": "ちゅう"
+    "umdok": "ちゅう",
+    "hundok": null
   },
   {
     "character": "枢",
     "grade": "S",
     "meaningKR": "지도리 추",
     "meaningEN": "hinge",
-    "umdok": "すう"
+    "umdok": "すう",
+    "hundok": null
   },
   {
     "character": "椎",
@@ -13718,7 +14420,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "떨어질 추",
     "meaningEN": "crash",
-    "umdok": "つい"
+    "umdok": "つい",
+    "hundok": null
   },
   {
     "character": "醜",
@@ -13757,21 +14460,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "쫓을 축",
     "meaningEN": "pursue",
-    "umdok": "ちく"
+    "umdok": "ちく",
+    "hundok": null
   },
   {
     "character": "畜",
     "grade": "S",
     "meaningKR": "짐승 축",
     "meaningEN": "livestock",
-    "umdok": "ちく"
+    "umdok": "ちく",
+    "hundok": null
   },
   {
     "character": "軸",
     "grade": "S",
     "meaningKR": "굴대 축",
     "meaningEN": "axis",
-    "umdok": "じく"
+    "umdok": "じく",
+    "hundok": null
   },
   {
     "character": "蓄",
@@ -13818,7 +14524,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "충성 충",
     "meaningEN": "loyalty",
-    "umdok": "ちゅう"
+    "umdok": "ちゅう",
+    "hundok": null
   },
   {
     "character": "充",
@@ -13841,14 +14548,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "속마음 충",
     "meaningEN": "inmost",
-    "umdok": "ちゅう"
+    "umdok": "ちゅう",
+    "hundok": null
   },
   {
     "character": "衝",
     "grade": "S",
     "meaningKR": "찌를 충",
     "meaningEN": "collide",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "取",
@@ -13927,7 +14636,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "층 층",
     "meaningEN": "stratum",
-    "umdok": "そう"
+    "umdok": "そう",
+    "hundok": null
   },
   {
     "character": "歯",
@@ -13982,35 +14692,40 @@ export const database = [
     "grade": "S",
     "meaningKR": "어리석을 치",
     "meaningEN": "stupid",
-    "umdok": "ち"
+    "umdok": "ち",
+    "hundok": null
   },
   {
     "character": "稚",
     "grade": "S",
     "meaningKR": "어릴 치",
     "meaningEN": "immature",
-    "umdok": "ち"
+    "umdok": "ち",
+    "hundok": null
   },
   {
     "character": "緻",
     "grade": "S",
     "meaningKR": "빽빽할 치",
     "meaningEN": "fine (not coarse)",
-    "umdok": "ち"
+    "umdok": "ち",
+    "hundok": null
   },
   {
     "character": "則",
     "grade": "5",
     "meaningKR": "법칙 칙",
     "meaningEN": "rule",
-    "umdok": "そく"
+    "umdok": "そく",
+    "hundok": null
   },
   {
     "character": "勅",
     "grade": "S",
     "meaningKR": "칙서 칙",
     "meaningEN": "imperial order",
-    "umdok": "ちょく"
+    "umdok": "ちょく",
+    "hundok": null
   },
   {
     "character": "親",
@@ -14089,7 +14804,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "일컬을 칭",
     "meaningEN": "appellation",
-    "umdok": "しょう"
+    "umdok": "しょう",
+    "hundok": null
   },
   {
     "character": "快",
@@ -14120,7 +14836,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "온당할 타",
     "meaningEN": "gentle",
-    "umdok": "だ"
+    "umdok": "だ",
+    "hundok": null
   },
   {
     "character": "唾",
@@ -14135,28 +14852,32 @@ export const database = [
     "grade": "S",
     "meaningKR": "떨어질 타",
     "meaningEN": "degenerate",
-    "umdok": "だ"
+    "umdok": "だ",
+    "hundok": null
   },
   {
     "character": "惰",
     "grade": "S",
     "meaningKR": "게으를 타",
     "meaningEN": "lazy",
-    "umdok": "だ"
+    "umdok": "だ",
+    "hundok": null
   },
   {
     "character": "卓",
     "grade": "S",
     "meaningKR": "높을 탁",
     "meaningEN": "eminent",
-    "umdok": "たく"
+    "umdok": "たく",
+    "hundok": null
   },
   {
     "character": "託",
     "grade": "S",
     "meaningKR": "부탁할 탁",
     "meaningEN": "consign",
-    "umdok": "たく"
+    "umdok": "たく",
+    "hundok": null
   },
   {
     "character": "濁",
@@ -14171,7 +14892,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "씻을 탁",
     "meaningEN": "laundry",
-    "umdok": "たく"
+    "umdok": "たく",
+    "hundok": null
   },
   {
     "character": "炭",
@@ -14186,7 +14908,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "낳을 탄",
     "meaningEN": "nativity",
-    "umdok": "たん"
+    "umdok": "たん",
+    "hundok": null
   },
   {
     "character": "弾",
@@ -14249,14 +14972,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "탑 탑",
     "meaningEN": "pagoda",
-    "umdok": "とう"
+    "umdok": "とう",
+    "hundok": null
   },
   {
     "character": "搭",
     "grade": "S",
     "meaningKR": "탈 탑",
     "meaningEN": "board",
-    "umdok": "とう"
+    "umdok": "とう",
+    "hundok": null
   },
   {
     "character": "湯",
@@ -14279,14 +15004,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "모습 태",
     "meaningEN": "condition",
-    "umdok": "たい"
+    "umdok": "たい",
+    "hundok": null
   },
   {
     "character": "汰",
     "grade": "S",
     "meaningKR": "사치할 태",
     "meaningEN": "luxury",
-    "umdok": "た"
+    "umdok": "た",
+    "hundok": null
   },
   {
     "character": "怠",
@@ -14301,35 +15028,40 @@ export const database = [
     "grade": "S",
     "meaningKR": "아이 밸 태",
     "meaningEN": "womb",
-    "umdok": "たい"
+    "umdok": "たい",
+    "hundok": null
   },
   {
     "character": "泰",
     "grade": "S",
     "meaningKR": "클 태",
     "meaningEN": "peaceful",
-    "umdok": "たい"
+    "umdok": "たい",
+    "hundok": null
   },
   {
     "character": "駄",
     "grade": "S",
     "meaningKR": "짐 실을 태",
     "meaningEN": "burdensome",
-    "umdok": "だ"
+    "umdok": "だ",
+    "hundok": null
   },
   {
     "character": "宅",
     "grade": "6",
     "meaningKR": "집 택",
     "meaningEN": "home",
-    "umdok": "たく"
+    "umdok": "たく",
+    "hundok": null
   },
   {
     "character": "択",
     "grade": "S",
     "meaningKR": "가릴 택",
     "meaningEN": "choose",
-    "umdok": "たく"
+    "umdok": "たく",
+    "hundok": null
   },
   {
     "character": "沢",
@@ -14448,7 +15180,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "특별할 특",
     "meaningEN": "special",
-    "umdok": "とく"
+    "umdok": "とく",
+    "hundok": null
   },
   {
     "character": "波",
@@ -14471,28 +15204,32 @@ export const database = [
     "grade": "6",
     "meaningKR": "갈래 파",
     "meaningEN": "sect",
-    "umdok": "は"
+    "umdok": "は",
+    "hundok": null
   },
   {
     "character": "把",
     "grade": "S",
     "meaningKR": "잡을 파",
     "meaningEN": "grasp",
-    "umdok": "は"
+    "umdok": "は",
+    "hundok": null
   },
   {
     "character": "婆",
     "grade": "S",
     "meaningKR": "할머니 파",
     "meaningEN": "old woman",
-    "umdok": "ば"
+    "umdok": "ば",
+    "hundok": null
   },
   {
     "character": "罷",
     "grade": "S",
     "meaningKR": "마칠 파",
     "meaningEN": "quit",
-    "umdok": "ひ"
+    "umdok": "ひ",
+    "hundok": null
   },
   {
     "character": "坂",
@@ -14515,14 +15252,16 @@ export const database = [
     "grade": "5",
     "meaningKR": "판단할 판",
     "meaningEN": "judge",
-    "umdok": "はん、ばん"
+    "umdok": "はん、ばん",
+    "hundok": null
   },
   {
     "character": "版",
     "grade": "5",
     "meaningKR": "판목 판",
     "meaningEN": "printing block",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "阪",
@@ -14537,7 +15276,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "팔 판",
     "meaningEN": "marketing",
-    "umdok": "はん"
+    "umdok": "はん",
+    "hundok": null
   },
   {
     "character": "八",
@@ -14552,6 +15292,7 @@ export const database = [
     "grade": "1",
     "meaningKR": "조개 패",
     "meaningEN": "shellfish",
+    "umdok": null,
     "hundok": "かい"
   },
   {
@@ -14567,6 +15308,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "염불 소리 패",
     "meaningEN": "songs with samisen",
+    "umdok": null,
     "hundok": "うた"
   },
   {
@@ -14574,7 +15316,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "으뜸 패",
     "meaningEN": "hegemony",
-    "umdok": "は"
+    "umdok": "は",
+    "hundok": null
   },
   {
     "character": "膨",
@@ -14621,7 +15364,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "두루 편",
     "meaningEN": "everywhere",
-    "umdok": "へん"
+    "umdok": "へん",
+    "hundok": null
   },
   {
     "character": "平",
@@ -14636,13 +15380,15 @@ export const database = [
     "grade": "5",
     "meaningKR": "평할 평",
     "meaningEN": "evaluate",
-    "umdok": "ひょう"
+    "umdok": "ひょう",
+    "hundok": null
   },
   {
     "character": "坪",
     "grade": "S",
     "meaningKR": "들 평",
     "meaningEN": "two-mat area",
+    "umdok": null,
     "hundok": "つぼ"
   },
   {
@@ -14650,14 +15396,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "허파 폐",
     "meaningEN": "lungs",
-    "umdok": "はい"
+    "umdok": "はい",
+    "hundok": null
   },
   {
     "character": "陛",
     "grade": "6",
     "meaningKR": "대궐 섬돌 폐",
     "meaningEN": "highness",
-    "umdok": "へい"
+    "umdok": "へい",
+    "hundok": null
   },
   {
     "character": "閉",
@@ -14680,21 +15428,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "화폐 폐",
     "meaningEN": "cash",
-    "umdok": "へい"
+    "umdok": "へい",
+    "hundok": null
   },
   {
     "character": "弊",
     "grade": "S",
     "meaningKR": "폐단 폐",
     "meaningEN": "abuse",
-    "umdok": "へい"
+    "umdok": "へい",
+    "hundok": null
   },
   {
     "character": "蔽",
     "grade": "S",
     "meaningKR": "덮을 폐",
     "meaningEN": "cover",
-    "umdok": "へい"
+    "umdok": "へい",
+    "hundok": null
   },
   {
     "character": "包",
@@ -14741,7 +15492,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "세포 포",
     "meaningEN": "placenta",
-    "umdok": "ほう"
+    "umdok": "ほう",
+    "hundok": null
   },
   {
     "character": "捕",
@@ -14756,7 +15508,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "대포 포",
     "meaningEN": "cannon",
-    "umdok": "ほう"
+    "umdok": "ほう",
+    "hundok": null
   },
   {
     "character": "浦",
@@ -14771,7 +15524,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "먹일 포",
     "meaningEN": "suckle",
-    "umdok": "ほ"
+    "umdok": "ほ",
+    "hundok": null
   },
   {
     "character": "飽",
@@ -14786,7 +15540,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "펼/가게 포",
     "meaningEN": "pavement",
-    "umdok": "ほ"
+    "umdok": "ほ",
+    "hundok": null
   },
   {
     "character": "褒",
@@ -14817,7 +15572,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "불터질 폭",
     "meaningEN": "explode",
-    "umdok": "ばく"
+    "umdok": "ばく",
+    "hundok": null
   },
   {
     "character": "表",
@@ -14832,14 +15588,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "표 표",
     "meaningEN": "ballot",
-    "umdok": "ひょう"
+    "umdok": "ひょう",
+    "hundok": null
   },
   {
     "character": "標",
     "grade": "4",
     "meaningKR": "표할 표",
     "meaningEN": "signpost",
-    "umdok": "ひょう"
+    "umdok": "ひょう",
+    "hundok": null
   },
   {
     "character": "俵",
@@ -14902,7 +15660,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "헤칠 피",
     "meaningEN": "expose",
-    "umdok": "ひ"
+    "umdok": "ひ",
+    "hundok": null
   },
   {
     "character": "疲",
@@ -15005,7 +15764,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "하례할 하",
     "meaningEN": "congratulations",
-    "umdok": "が"
+    "umdok": "が",
+    "hundok": null
   },
   {
     "character": "学",
@@ -15044,7 +15804,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "한나라 한",
     "meaningEN": "China",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "限",
@@ -15075,14 +15836,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "한가할 한",
     "meaningEN": "leisure",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "韓",
     "grade": "S",
     "meaningKR": "나라 한",
     "meaningEN": "Korea",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "割",
@@ -15097,7 +15860,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "다스릴 할",
     "meaningEN": "control",
-    "umdok": "かつ"
+    "umdok": "かつ",
+    "hundok": null
   },
   {
     "character": "含",
@@ -15120,7 +15884,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "큰 배 함",
     "meaningEN": "warship",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "合",
@@ -15143,28 +15908,32 @@ export const database = [
     "grade": "5",
     "meaningKR": "배 항",
     "meaningEN": "cruise",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "抗",
     "grade": "S",
     "meaningKR": "겨룰 항",
     "meaningEN": "confront",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "恒",
     "grade": "S",
     "meaningKR": "항상 항",
     "meaningEN": "constancy",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "項",
     "grade": "S",
     "meaningKR": "항목 항",
     "meaningEN": "paragraph",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "海",
@@ -15179,7 +15948,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "해할 해",
     "meaningEN": "harm",
-    "umdok": "がい"
+    "umdok": "がい",
+    "hundok": null
   },
   {
     "character": "解",
@@ -15194,42 +15964,48 @@ export const database = [
     "grade": "S",
     "meaningKR": "각출/마땅 해",
     "meaningEN": "above-stated",
-    "umdok": "がい"
+    "umdok": "がい",
+    "hundok": null
   },
   {
     "character": "楷",
     "grade": "S",
     "meaningKR": "본보기 해",
     "meaningEN": "square character style",
-    "umdok": "かい"
+    "umdok": "かい",
+    "hundok": null
   },
   {
     "character": "諧",
     "grade": "S",
     "meaningKR": "화할 해",
     "meaningEN": "harmony",
-    "umdok": "かい"
+    "umdok": "かい",
+    "hundok": null
   },
   {
     "character": "骸",
     "grade": "S",
     "meaningKR": "뼈 해",
     "meaningEN": "dead remains",
-    "umdok": "がい"
+    "umdok": "がい",
+    "hundok": null
   },
   {
     "character": "劾",
     "grade": "S",
     "meaningKR": "꾸짖을 핵",
     "meaningEN": "censure",
-    "umdok": "がい"
+    "umdok": "がい",
+    "hundok": null
   },
   {
     "character": "核",
     "grade": "S",
     "meaningKR": "씨 핵",
     "meaningEN": "nucleus",
-    "umdok": "かく"
+    "umdok": "かく",
+    "hundok": null
   },
   {
     "character": "行",
@@ -15260,14 +16036,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "시골 향",
     "meaningEN": "home town",
-    "umdok": "きょう、ごう"
+    "umdok": "きょう、ごう",
+    "hundok": null
   },
   {
     "character": "享",
     "grade": "S",
     "meaningKR": "누릴 향",
     "meaningEN": "receive",
-    "umdok": "きょう"
+    "umdok": "きょう",
+    "hundok": null
   },
   {
     "character": "香",
@@ -15306,7 +16084,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "법 헌",
     "meaningEN": "constitution",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "軒",
@@ -15321,14 +16100,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "드릴 헌",
     "meaningEN": "offering",
-    "umdok": "けん、こん"
+    "umdok": "けん、こん",
+    "hundok": null
   },
   {
     "character": "験",
     "grade": "4",
     "meaningKR": "시험 험",
     "meaningEN": "test",
-    "umdok": "けん、げん"
+    "umdok": "けん、げん",
+    "hundok": null
   },
   {
     "character": "険",
@@ -15351,14 +16132,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "성낼 혁",
     "meaningEN": "menacing",
-    "umdok": "かく"
+    "umdok": "かく",
+    "hundok": null
   },
   {
     "character": "県",
     "grade": "3",
     "meaningKR": "고을 현",
     "meaningEN": "prefecture",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "現",
@@ -15373,7 +16156,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "검을 현",
     "meaningEN": "mysterious",
-    "umdok": "げん"
+    "umdok": "げん",
+    "hundok": null
   },
   {
     "character": "弦",
@@ -15388,7 +16172,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "뱃전 현",
     "meaningEN": "gunwale",
-    "umdok": "げん"
+    "umdok": "げん",
+    "hundok": null
   },
   {
     "character": "賢",
@@ -15403,7 +16188,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "나타날 현",
     "meaningEN": "appear",
-    "umdok": "けん"
+    "umdok": "けん",
+    "hundok": null
   },
   {
     "character": "懸",
@@ -15442,14 +16228,16 @@ export const database = [
     "grade": "4",
     "meaningKR": "화합할 협",
     "meaningEN": "cooperation",
-    "umdok": "きょう"
+    "umdok": "きょう",
+    "hundok": null
   },
   {
     "character": "峡",
     "grade": "S",
     "meaningKR": "골짜기 협",
     "meaningEN": "gorge",
-    "umdok": "きょう"
+    "umdok": "きょう",
+    "hundok": null
   },
   {
     "character": "挟",
@@ -15480,6 +16268,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "옆구리 협",
     "meaningEN": "aside",
+    "umdok": null,
     "hundok": "わき"
   },
   {
@@ -15487,6 +16276,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "뺨 협",
     "meaningEN": "cheek",
+    "umdok": null,
     "hundok": "ほお"
   },
   {
@@ -15518,7 +16308,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "형벌 형",
     "meaningEN": "punish",
-    "umdok": "けい"
+    "umdok": "けい",
+    "hundok": null
   },
   {
     "character": "桁",
@@ -15541,7 +16332,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "저울대 형",
     "meaningEN": "equilibrium",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "恵",
@@ -15564,7 +16356,8 @@ export const database = [
     "grade": "3",
     "meaningKR": "이름 호",
     "meaningEN": "number",
-    "umdok": "ごう"
+    "umdok": "ごう",
+    "hundok": null
   },
   {
     "character": "湖",
@@ -15587,7 +16380,8 @@ export const database = [
     "grade": "5",
     "meaningKR": "도울 호",
     "meaningEN": "safeguard",
-    "umdok": "ご"
+    "umdok": "ご",
+    "hundok": null
   },
   {
     "character": "呼",
@@ -15618,14 +16412,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "활 호",
     "meaningEN": "arc",
-    "umdok": "こ"
+    "umdok": "こ",
+    "hundok": null
   },
   {
     "character": "豪",
     "grade": "S",
     "meaningKR": "호걸 호",
     "meaningEN": "overpowering",
-    "umdok": "ごう"
+    "umdok": "ごう",
+    "hundok": null
   },
   {
     "character": "惑",
@@ -15640,7 +16436,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "심할 혹",
     "meaningEN": "cruel",
-    "umdok": "こく"
+    "umdok": "こく",
+    "hundok": null
   },
   {
     "character": "混",
@@ -15655,7 +16452,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "혼인할 혼",
     "meaningEN": "marriage",
-    "umdok": "こん"
+    "umdok": "こん",
+    "hundok": null
   },
   {
     "character": "魂",
@@ -15678,14 +16476,16 @@ export const database = [
     "grade": "S",
     "meaningKR": "넓을 홍",
     "meaningEN": "deluge",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "虹",
     "grade": "S",
     "meaningKR": "무지개 홍",
     "meaningEN": "rainbow",
-    "umdok": "にじ"
+    "umdok": "にじ",
+    "hundok": null
   },
   {
     "character": "火",
@@ -15708,7 +16508,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "그림 화/그을 획",
     "meaningEN": "tableau",
-    "umdok": "が、かく"
+    "umdok": "が、かく",
+    "hundok": null
   },
   {
     "character": "話",
@@ -15739,7 +16540,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "재물 화",
     "meaningEN": "freight",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "華",
@@ -15754,7 +16556,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "재앙 화",
     "meaningEN": "calamity",
-    "umdok": "か"
+    "umdok": "か",
+    "hundok": null
   },
   {
     "character": "靴",
@@ -15777,14 +16580,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "넓힐 확",
     "meaningEN": "broaden",
-    "umdok": "かく"
+    "umdok": "かく",
+    "hundok": null
   },
   {
     "character": "穫",
     "grade": "S",
     "meaningKR": "거둘 확",
     "meaningEN": "harvest",
-    "umdok": "かく"
+    "umdok": "かく",
+    "hundok": null
   },
   {
     "character": "丸",
@@ -15815,7 +16620,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "부를 환",
     "meaningEN": "yell",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "換",
@@ -15830,21 +16636,24 @@ export const database = [
     "grade": "S",
     "meaningKR": "기쁠 환",
     "meaningEN": "delight",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "還",
     "grade": "S",
     "meaningKR": "돌아올 환",
     "meaningEN": "send back",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "環",
     "grade": "S",
     "meaningKR": "고리 환",
     "meaningEN": "ring",
-    "umdok": "かん"
+    "umdok": "かん",
+    "hundok": null
   },
   {
     "character": "活",
@@ -15875,14 +16684,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "임금 황",
     "meaningEN": "emperor",
-    "umdok": "こう、おう"
+    "umdok": "こう、おう",
+    "hundok": null
   },
   {
     "character": "況",
     "grade": "S",
     "meaningKR": "상황 황",
     "meaningEN": "condition",
-    "umdok": "きょう"
+    "umdok": "きょう",
+    "hundok": null
   },
   {
     "character": "荒",
@@ -15921,7 +16732,8 @@ export const database = [
     "grade": "2",
     "meaningKR": "그림 회",
     "meaningEN": "picture",
-    "umdok": "え、かい"
+    "umdok": "え、かい",
+    "hundok": null
   },
   {
     "character": "灰",
@@ -15944,6 +16756,7 @@ export const database = [
     "grade": "4",
     "meaningKR": "상수리나무 회",
     "meaningEN": "horse chestnut",
+    "umdok": null,
     "hundok": "とち"
   },
   {
@@ -15991,7 +16804,8 @@ export const database = [
     "grade": "6",
     "meaningKR": "효도 효",
     "meaningEN": "filial piety",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "暁",
@@ -16006,7 +16820,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "삭힐 효",
     "meaningEN": "fermentation",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "後",
@@ -16053,7 +16868,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "제후 후",
     "meaningEN": "marquis",
-    "umdok": "こう"
+    "umdok": "こう",
+    "hundok": null
   },
   {
     "character": "喉",
@@ -16076,7 +16892,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "가르칠 훈",
     "meaningEN": "instruction",
-    "umdok": "くん"
+    "umdok": "くん",
+    "hundok": null
   },
   {
     "character": "勲",
@@ -16107,14 +16924,16 @@ export const database = [
     "grade": "6",
     "meaningKR": "휘두를 휘",
     "meaningEN": "brandish",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "彙",
     "grade": "S",
     "meaningKR": "무리 휘",
     "meaningEN": "same kind",
-    "umdok": "い"
+    "umdok": "い",
+    "hundok": null
   },
   {
     "character": "輝",
@@ -16153,7 +16972,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "흉할 흉",
     "meaningEN": "villain",
-    "umdok": "きょう"
+    "umdok": "きょう",
+    "hundok": null
   },
   {
     "character": "黒",
@@ -16192,7 +17012,8 @@ export const database = [
     "grade": "4",
     "meaningKR": "바랄 희",
     "meaningEN": "hope",
-    "umdok": "き"
+    "umdok": "き",
+    "hundok": null
   },
   {
     "character": "喜",
@@ -16207,6 +17028,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "계집 희",
     "meaningEN": "princess",
+    "umdok": null,
     "hundok": "ひめ"
   },
   {
@@ -16222,7 +17044,8 @@ export const database = [
     "grade": "S",
     "meaningKR": "희생할 희",
     "meaningEN": "sacrifice",
-    "umdok": "ぎ"
+    "umdok": "ぎ",
+    "hundok": null
   },
   {
     "character": "詰",
@@ -16237,6 +17060,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "(일본한자)담다",
     "meaningEN": "crowded",
+    "umdok": null,
     "hundok": "こむ、こめる"
   },
   {
@@ -16244,6 +17068,7 @@ export const database = [
     "grade": "3",
     "meaningKR": "(일본한자)밭",
     "meaningEN": "farm",
+    "umdok": null,
     "hundok": "はた、はたけ"
   },
   {
@@ -16251,6 +17076,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "(일본한자)테두리",
     "meaningEN": "frame",
+    "umdok": null,
     "hundok": "わく"
   },
   {
@@ -16258,6 +17084,7 @@ export const database = [
     "grade": "S",
     "meaningKR": "(일본한자)고개",
     "meaningEN": "mountain peak",
+    "umdok": null,
     "hundok": "とうげ"
   }
 ];

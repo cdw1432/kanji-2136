@@ -1,8 +1,7 @@
-import {jsonData} from './src/data-2136.js';
-
+import { database } from './src/data/database.js';
 /* Global */
 let selectedMenu: number = -1;
-let jsonDataUpdated = jsonData;
+let databaseUpdated = database;
 let mainContent = document.getElementById('main')
 /* MENU BUTTON */
 const menuButton = document.getElementById('menu-button');
@@ -48,44 +47,57 @@ optionArray.forEach((opt) => {
 let updateData = () => {
   const grade:string = (selectedMenu == 7) ? 'S' : selectedMenu.toString();
   if(grade != "0")
-    jsonDataUpdated = jsonData.filter((e) => e.Grade == grade)
+    databaseUpdated = database.filter((e) => e.grade == grade)
   else
-    jsonDataUpdated = jsonData;
+    databaseUpdated = database;
 
   //console.log(jsonDataUpdated);
 }
 /* KANJI */
-interface Character {
-  "New (Shinjitai)": string,
-  "English meaning": string,
-  "Readings": string,
+interface KanjiObj {
+  "character": string;
+  "grade": string;
+  "meaningKR": string;
+  "meaningEN": string;
+  "umdok": string | null;
+  "hundok": string | null;
 }
 class Card {
   character: string;
-  reading: string;
-  meaning: string;
-
-  umdok: string[] = [];
-  hundok: string[] = [];
-
-  constructor(c: string, r: string, m:string) {
-    this.character = c;
-    this.reading = r;
-    this.meaning = m;
-    this.ModifyMeaning();
-  }
-  ModifyMeaning() {
-    let arr = this.reading.slice(0, this.reading.indexOf('\n')).split('、').map((str) => str.replace(/[\uFF08\uFF09()]/g, "")); //remove "（" and "）"
-    
-    function isKatakana(str: string): boolean {
-      return /^[\u30A0-\u30FF]+$/.test(str); 
-    }
-    
-    this.umdok = arr.filter(str => isKatakana(str.replace(/[\uFF08(].*?[\uFF09)]/g, "")));
-    this.umdok = this.umdok.map((str) => this.KataToHira(str));
-    this.hundok = arr.filter(str => !isKatakana(str.replace(/[\uFF08(].*?[\uFF09)]/g, "")));
-  }
+  grade: string;
+  meaningKR: string;
+  meaningEN: string;
+  onyomi: string | null;
+  kunyomi: string | null;
   
+  constructor(c: string,
+              g:string, 
+              mkr:string, 
+              men:string, 
+              u:string | null, 
+              h:string | null) {
+    
+    this.character = c;
+    this.grade = g;
+    this.meaningKR = mkr;
+    this.meaningEN = men;
+    this.onyomi = u;
+    this.kunyomi = h;
+  }
+  GetOnyomi():string[] {
+    if(this.onyomi)
+      return this.onyomi?.split('、')
+
+    return [];
+  }
+  GetKunyomi():string[] {
+    if(this.kunyomi)
+      return this.kunyomi?.split('、')
+    return [];
+  }
+  IsKatakana(str: string): boolean {
+    return /^[\u30A0-\u30FF]+$/.test(str); 
+  }
   KataToHira(input: string): string {
     return input.replace(/[\u30A1-\u30F6]/g, function(match) {
       const charCode = match.charCodeAt(0) - 0x60;
@@ -94,9 +106,11 @@ class Card {
   }
   ShowInConsole() {
     console.log(this.character);
-    console.log(this.meaning);
-    console.log(this.umdok);
-    console.log(this.hundok);
+    console.log(this.grade);
+    console.log(this.meaningKR);
+    console.log(this.meaningEN);
+    console.log(this.onyomi);
+    console.log(this.kunyomi);
   }
 }
 
@@ -117,8 +131,8 @@ function flashcards() {
   showChar();
 }
 let showChar = () => {
-  const rChar:Character = jsonDataUpdated[Math.floor(Math.random() * jsonDataUpdated.length)]
-  let card = new Card(rChar["New (Shinjitai)"], rChar["Readings"], rChar["English meaning"])
+  const rChar:KanjiObj = databaseUpdated[Math.floor(Math.random() * databaseUpdated.length)]
+  let card = new Card(rChar.character, rChar.grade,rChar.meaningKR,rChar.meaningEN, rChar.umdok, rChar.hundok)
   const container = mainContent?.querySelector(`#container`);
   if(container) {
     const charElement = document.createElement('h2');
@@ -127,13 +141,13 @@ let showChar = () => {
     charElement.textContent = card.character
     charElement.id = "character"
   
-  card.umdok.forEach((v,i) => {
+  card.GetOnyomi().forEach((v,i) => {
       const list = document.createElement('li')
       list.textContent = v;
       list.className = `umdok umdok-${i}`;
       umdokElement.appendChild(list);
   })
-  card.hundok.forEach((v,i) => {
+  card.GetKunyomi().forEach((v,i) => {
     const list = document.createElement('li')
     list.textContent = v;
     list.className = `hundok hundok-${i}`;

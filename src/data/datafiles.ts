@@ -65,12 +65,12 @@ checkDuplicateCharacters();
 
 /* MAKE DATA FILE */
 interface DATA {
-  character: number;
-  grade: string;
-  meaningKR: string;
-  meaningEN: string;
-  umdok: string;
-  hundok: string;
+  character: number | null;
+  grade: string | null;
+  meaningKR: string | null;
+  meaningEN: string | null;
+  umdok: string | null;
+  hundok: string | null;
 }
 
 function mergeDataFiles(): DATA[] { 
@@ -83,8 +83,8 @@ function mergeDataFiles(): DATA[] {
         grade: item2['Grade'],
         meaningKR: item1.meaning,
         meaningEN: item2['English meaning'],
-        umdok: item1.umdok,
-        hundok: item1.hundok,
+        umdok: (item1.umdok) ? item1.umdok : null,
+        hundok: (item1.hundok) ? item1.hundok : null,
       };
       return mergedItem;
     }
