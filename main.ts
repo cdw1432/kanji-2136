@@ -117,46 +117,79 @@ class Card {
 function flashcards() {
   const left = document.getElementById('left-arrow')
   const right = document.getElementById('right-arrow')
+  let count:number = 0;
   if (menuElement && left && right) {
     menuElement.style.display = "none";
     left.style.display = "contents";
     right.style.display = "contents";
     left.addEventListener('click', () => {
-      showChar();
+      count--;
+      if(count == -1)
+        count = databaseUpdated.length-1;
+
+      showChar(count);
     });
     right.addEventListener('click', () => {
-      showChar();
+      count++;
+      if(count == databaseUpdated.length)
+        count = 0;
+      showChar(count);
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowRight') {
+        count++;
+        if(count == databaseUpdated.length)
+          count = 0;
+        showChar(count);
+      } else if(event.key == 'ArrowLeft') {
+        count--;
+        if(count == -1)
+          count = databaseUpdated.length-1;
+  
+        showChar(count);
+      }
     });
   }
-  showChar();
+  showChar(count);
 }
-let showChar = () => {
-  const rChar:KanjiObj = databaseUpdated[Math.floor(Math.random() * databaseUpdated.length)]
+let showChar = (count:number) => {
+  //const rChar:KanjiObj = databaseUpdated[Math.floor(Math.random() * databaseUpdated.length)]
+  const rChar = databaseUpdated[count]
+  console.log(count, rChar.character);
   let card = new Card(rChar.character, rChar.grade,rChar.meaningKR,rChar.meaningEN, rChar.umdok, rChar.hundok)
   const container = mainContent?.querySelector(`#container`);
   if(container) {
     const charElement = document.createElement('h2');
+    const meaningK = document.createElement('h3');
+    const meaningE = document.createElement('h3');
     const umdokElement = document.createElement('ul');
     const hundokElement = document.createElement('ul');
     charElement.textContent = card.character
     charElement.id = "character"
+    meaningK.textContent = card.meaningKR
+    meaningK.className = 'meaning kr'
+    meaningE.textContent = card.meaningEN.toUpperCase();
+    meaningE.className = 'meaning en'
   
   card.GetOnyomi().forEach((v,i) => {
       const list = document.createElement('li')
       list.textContent = v;
-      list.className = `umdok umdok-${i}`;
+      list.className = `read umdok umdok-${i}`;
       umdokElement.appendChild(list);
   })
   card.GetKunyomi().forEach((v,i) => {
     const list = document.createElement('li')
     list.textContent = v;
-    list.className = `hundok hundok-${i}`;
+    list.className = `read hundok hundok-${i}`;
     hundokElement.appendChild(list);
   })
     container.innerHTML = '';
+
     container.appendChild(charElement);
+    container.appendChild(meaningK);
+    container.appendChild(meaningE);
     container.appendChild(umdokElement);
     container.appendChild(hundokElement);
   }
-  card.ShowInConsole();
+  //card.ShowInConsole();
 }

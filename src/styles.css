@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 html {
     height: 100%;
     box-sizing: border-box;
@@ -15,6 +16,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: inherit;
+    touch-action: manipulation;
 }
 #app {
     background-color: grey;
@@ -66,13 +68,6 @@ body {
     min-width: 100px;
     font-size: 25px;
 }
-#character {
-    background-color: white;
-    padding: 5px;
-    text-align: center;
-    height: 50px;
-    width: 100px;
-}
 #left-arrow {
     display: none;
    
@@ -87,10 +82,36 @@ body {
 #right-arrow svg {
     width: 40px;
     height: 40px;
+    float: right;
 }
-.umdok {
-    color: red;
+#character {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 70px;
 }
-.hundok {
-    color: blue;
+.meaning {
+    font-size: 25px;
+    border: solid 1px;
+    display: inline-block;
+    margin: 10px;
+}
+.read {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 35px;
+    border: solid 1px;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+.read.umdok {
+    color: rgb(173, 20, 20);
+
+}
+.read.hundok {
+    color: rgb(26, 26, 179);
 }
