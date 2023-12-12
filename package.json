@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "ts-watch": "tsc --watch",
-    "live": "live-server"
+    "kanji-preview": "live-server"
   },
   "author": "Woojin Choi",
   "license": "MIT",
