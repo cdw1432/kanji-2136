@@ -6,5 +6,7 @@
     - a, i, u, e, o
 - ka,
     - ka, ki, ku, ke, ko
-
+- sa,
+    - sa, shi, su, se, so
+    
 /* TODO: add rest of the word */

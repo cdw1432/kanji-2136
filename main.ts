@@ -25,10 +25,10 @@ enum OPTIONS {
 const optionArray = Object.keys(OPTIONS).filter(key => !isNaN(Number((OPTIONS as any)[key])));
 const menuElement = document.getElementById('menu');
 
-optionArray.forEach((opt) => {
+optionArray.forEach((opt,idx) => {
   const optionElement = document.createElement('li');
   const buttonElement = document.createElement('button');
-
+  buttonElement.className = `appear delay-${idx+1}`
   buttonElement.textContent = opt;
 
   buttonElement.addEventListener('click', () => {
