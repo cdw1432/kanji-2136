@@ -156,6 +156,9 @@ let showChar = (count:number) => {
   //const rChar:KanjiObj = databaseUpdated[Math.floor(Math.random() * databaseUpdated.length)]
   const rChar = databaseUpdated[count]
   console.log(count, rChar.character);
+  let lengthBar = document.getElementById('length-bar');
+  if(lengthBar)
+    lengthBar.textContent = count+1 + '/' + databaseUpdated.length;
   let card = new Card(rChar.character, rChar.grade,rChar.meaningKR,rChar.meaningEN, rChar.umdok, rChar.hundok)
   const container = mainContent?.querySelector(`#container`);
   if(container) {
