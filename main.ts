@@ -159,16 +159,22 @@ let showChar = (count:number) => {
   let lengthBar = document.getElementById('length-bar');
   if(lengthBar)
     lengthBar.textContent = count+1 + '/' + databaseUpdated.length;
+
   let card = new Card(rChar.character, rChar.grade,rChar.meaningKR,rChar.meaningEN, rChar.umdok, rChar.hundok)
-  const container = mainContent?.querySelector(`#container`);
+  const container = mainContent?.querySelector(`#container`) as HTMLElement;;
+  if (container) {
+    container.style.display = 'grid';
+  }
   if(container) {
     const charElement = document.createElement('h2');
     const meaningK = document.createElement('h3');
     const meaningE = document.createElement('h3');
     const umdokElement = document.createElement('ul');
+    umdokElement.id = 'umdoklist'
     const hundokElement = document.createElement('ul');
+    hundokElement.id = 'hundoklist'
     charElement.textContent = card.character
-    charElement.id = "character"
+
     meaningK.textContent = card.meaningKR
     meaningK.className = 'meaning kr'
     meaningE.textContent = card.meaningEN.toUpperCase();
@@ -177,22 +183,34 @@ let showChar = (count:number) => {
   card.GetOnyomi().forEach((v,i) => {
       const list = document.createElement('li')
       list.textContent = v;
-      list.className = `read umdok umdok-${i}`;
+      list.className = `umdok umdok-${i}`;
       umdokElement.appendChild(list);
   })
   card.GetKunyomi().forEach((v,i) => {
     const list = document.createElement('li')
     list.textContent = v;
-    list.className = `read hundok hundok-${i}`;
+    list.className = `hundok hundok-${i}`;
     hundokElement.appendChild(list);
   })
     container.innerHTML = '';
 
-    container.appendChild(charElement);
-    container.appendChild(meaningK);
-    container.appendChild(meaningE);
-    container.appendChild(umdokElement);
-    container.appendChild(hundokElement);
+    var divC = document.createElement('div');
+    var divM = document.createElement('div');
+    var divR = document.createElement('div');
+    divC.id = "character"
+    divM.id = "meaning"
+    divR.id = "readings"
+    
+    divC.appendChild(charElement);
+    divM.appendChild(meaningK);
+    divM.appendChild(meaningE);
+
+    divR.appendChild(umdokElement);
+    divR.appendChild(hundokElement);
+    
+    container.appendChild(divC);
+    container.appendChild(divM);
+    container.appendChild(divR);
   }
   //card.ShowInConsole();
 }
