@@ -8,5 +8,7 @@
     - ka, ki, ku, ke, ko
 - sa,
     - sa, shi, su, se, so
-    
+- ta,
+    - ta, chi, tsu, te, to
+
 /* TODO: add rest of the word */

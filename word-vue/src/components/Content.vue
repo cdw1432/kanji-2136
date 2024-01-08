@@ -34,6 +34,13 @@ const changeCategory = (category: string, kind: string) => {
       <button @click="changeCategory('sa','se')"><li>se</li></button>
       <button @click="changeCategory('sa','so')"><li>so</li></button>
     </ul>
+    <ul>
+      <button @click="changeCategory('ta','ta')"><li>ta</li></button>
+      <button @click="changeCategory('ta','chi')"><li>chi</li></button>
+      <button @click="changeCategory('ta','tsu')"><li>tsu</li></button>
+      <button @click="changeCategory('ta','te')"><li>te</li></button>
+      <button @click="changeCategory('ta','to')"><li>to</li></button>
+    </ul>
     <Display :category="currentCategory" :kind="currentKind" />
   </div>
 </template>
